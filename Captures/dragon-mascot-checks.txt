@@ -1,0 +1,1 @@
+PASS: Menu idle/tap, Gameplay placement and non-raycast, real single/multiple line clears, combo 6/8 crossing and no retrigger, priority, Game Over/Continue/Replay, disable/re-enable, scene roundtrip and record restoration. Blink/tail clips unavailable for the original blue sprite.

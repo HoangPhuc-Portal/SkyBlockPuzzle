@@ -1,0 +1,11 @@
+Recovered commit: 1a9a8c9d1411a314c346d509bf81ab8b0567e660 (2026-11-01 16:54:54)
+Recovery branch: codex/recover-sky-block-20261101
+Old master retained at 83be082.
+Reason: commit made on detached HEAD; later checkout to master selected the old version.
+Safety stash: Recovery safety backup before restoring 1a9a8c9 (retained, not popped).
+Working MaterialGeneratorSettings.asset copied back unchanged from backup.
+Four untracked dependency files matched recovered commit (including newline normalization).
+Unity previously showed an unsaved MainMenu in memory. UI activation timed out; do not save the old in-memory scene over recovered disk files. Back up unsaved scene separately before reloading Assets/Scenes/MainMenu.unity.
+Runtime C# verification: PASS, 0 errors / 2 existing warnings (ClearPresentation.camera and obsolete MobileAds event flag).
+Generated Assembly-CSharp.csproj still reflected the old checkout and omitted restored scripts. Verification used Library/RecoveryVerification.targets to include actual restored Scripts and GoogleMobileAds assemblies; no tracked source changed for this check.
+Unity scene reload / Play Mode not verified because UI activation timed out.

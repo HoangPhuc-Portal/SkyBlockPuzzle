@@ -1,0 +1,3 @@
+PASS 1080x2340: complete frame/crest fits; 64 real cells; 3 live pieces
+PASS 1080x1920: complete frame/crest fits; 64 real cells; 3 live pieces
+PASS 1080x2400: complete frame/crest fits; 64 real cells; 3 live pieces

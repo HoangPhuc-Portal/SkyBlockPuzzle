@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41eda43666e18f543bee07e258780d16, type: 3}
+  m_Name: ReferenceEnvironment
+  m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Environment.IslandEnvironmentSettings
+  cloudSprite: {fileID: 1932321895275581534, guid: 031964b2aaf4d29458f1d38c69d411e9, type: 3}
+  leafSprite: {fileID: -2516684815595071745, guid: 031964b2aaf4d29458f1d38c69d411e9, type: 3}
+  waterMaterial: {fileID: 2100000, guid: 6c68e6cffdf44e24481943e7742a4372, type: 2}
+  cloudSpeed: 0.006
+  cloudMovementRange: {x: 0.38, y: 0.012}
+  cloudOpacity: 0.14
+  cloudWidth: 0.38
+  waterAnimationSpeed: 1
+  waterStrength: 0.18
+  waterAreas:
+  - {x: 0.02, y: 0.36, z: 0.1, w: 0.18}
+  - {x: 0.88, y: 0.36, z: 0.1, w: 0.18}
+  - {x: 0.57, y: 0, z: 0.13, w: 0.13}
+  - {x: 0.3, y: 0.76, z: 0.22, w: 0.07}
+  leafSpawnRate: 0.55
+  leafMovementSpeed: 0.07
+  maximumActiveLeaves: 6
+  initialLeaves: 4
+  leafWidth: 0.065
+  particleDensity: 1
+  pauseWithGameplayModal: 1
+  reduceOnLowQuality: 1

@@ -1,0 +1,4 @@
+PASS Idle advances; random Blink returns to Idle; old mascot disabled. Idle frames observed=32
+PASS PlayReaction has priority and renders during departure
+PASS repeated Play produces exactly one Gameplay load
+PASS return MainMenu resets Idle; ALL PASS

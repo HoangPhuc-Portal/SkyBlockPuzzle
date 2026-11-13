@@ -1,0 +1,12 @@
+83be082 HEAD@{2026-11-01 17:09:41 +0700}: checkout: moving from 83be0827880f7f83f9cd80904a758e69c40e19de to master
+83be082 HEAD@{2026-11-01 16:58:30 +0700}: checkout: moving from master to 83be082
+83be082 HEAD@{2026-11-01 16:56:14 +0700}: checkout: moving from 1a9a8c9d1411a314c346d509bf81ab8b0567e660 to master
+1a9a8c9 HEAD@{2026-11-01 16:54:54 +0700}: commit: them quang cao cho game
+83be082 HEAD@{2026-10-12 23:55:44 +0700}: checkout: moving from master to 83be0827880f7f83f9cd80904a758e69c40e19de
+83be082 HEAD@{2026-10-12 21:59:11 +0700}: commit: them phan kiem tra logic phat hien gameover
+10fd537 HEAD@{2026-10-11 21:55:07 +0700}: commit: them mau sac cho tung block sinh ra trong Tray
+b3a0917 HEAD@{2026-10-09 17:28:47 +0700}: checkout: moving from b3a0917c5a2a515821c77f21a10b59f2ef6d03bd to master
+b3a0917 HEAD@{2026-10-09 17:22:00 +0700}: checkout: moving from master to b3a0917c5a2a515821
+b3a0917 HEAD@{2026-10-09 17:14:06 +0700}: checkout: moving from main to master
+dd58f13 HEAD@{2026-10-09 17:12:51 +0700}: checkout: moving from master to main
+b3a0917 HEAD@{2026-10-09 17:11:59 +0700}: commit: co ban ve giao dien gameplay

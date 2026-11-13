@@ -1,0 +1,29 @@
+DDA SIMULATION — 2026-11-04T20:16:06
+Progress 0/1000: DDI=0.543, weights=(0.32, 0.45, 0.23)
+Progress 450/1000: DDI=0.656, weights=(0.26, 0.45, 0.29)
+Progress 750/1000: DDI=0.768, weights=(0.20, 0.45, 0.36)
+Progress 930/1000: DDI=0.881, weights=(0.17, 0.42, 0.40)
+Progress 1000/1000: DDI=0.927, weights=(0.16, 0.41, 0.42)
+Progress 1100/1000: DDI=0.993, weights=(0.15, 0.40, 0.45)
+Progress 1300/1000: DDI=0.993, weights=(0.15, 0.40, 0.45)
+PASS: first-run no division by zero; relative milestones and snapshot; normalized weights; simulation clears both axes, explores another order; impossible vs unknown distinguished.
+PASS: Square_3x3 legal 24 -> 0 with fragmentation; danger 0.000 -> 0.541.
+New player/open | target mean (0.75, 0.25, 0.00) | actual E/M/H 73.7%/26.3%/0.0% | rejected 0, fallback 0, relaxed 0, relief 0, complete 100/100 | mean 0.719 ms, max 1.560 ms
+Developing/open | target mean (0.22, 0.45, 0.33) | actual E/M/H 20.3%/40.3%/39.3% | rejected 0, fallback 0, relaxed 0, relief 0, complete 100/100 | mean 0.713 ms, max 1.707 ms
+Near record/skilled/open | target mean (0.17, 0.42, 0.41) | actual E/M/H 19.3%/38.7%/42.0% | rejected 0, fallback 0, relaxed 0, relief 0, complete 100/100 | mean 0.546 ms, max 0.777 ms
+Beyond record/skilled/open | target mean (0.15, 0.40, 0.45) | actual E/M/H 14.3%/41.0%/44.7% | rejected 0, fallback 0, relaxed 0, relief 0, complete 100/100 | mean 0.734 ms, max 1.276 ms
+Near record/struggling | target mean (0.58, 0.37, 0.05) | actual E/M/H 59.0%/36.3%/4.7% | rejected 0, fallback 0, relaxed 0, relief 100, complete 100/100 | mean 0.694 ms, max 1.274 ms
+Fragmented | target mean (0.33, 0.54, 0.13) | actual E/M/H 43.0%/53.0%/4.0% | rejected 154, fallback 87, relaxed 0, relief 0, complete 100/100 | mean 1.677 ms, max 3.865 ms
+Near full | target mean (0.73, 0.27, 0.00) | actual E/M/H 81.0%/19.0%/0.0% | rejected 74, fallback 0, relaxed 0, relief 100, complete 100/100 | mean 0.232 ms, max 1.395 ms
+Clear opportunities | target mean (0.18, 0.42, 0.40) | actual E/M/H 16.3%/43.0%/40.7% | rejected 0, fallback 0, relaxed 0, relief 0, complete 100/100 | mean 0.353 ms, max 0.660 ms
+PASS: 800 sampled hands, all have an initial move; every claimed complete proof replayed; board and gameplay events unchanged. Desktop Editor timings only, not mobile FPS certification.
+PASS: all 3 ViabilityPolicy modes retain legal moves under a 100-node / 1ms budget (30 additional hands).
+Gameplay regression: PASS (8 groups):
+valid placement and persistent opaque sprite
+invalid occupied/out-of-bounds/empty placements remain atomic
+row preview, cached target and cleanup on target change
+invalid and outside target cleanup
+column preview and explicit cancellation cleanup
+cross-line union, unique cells and synchronized clear (scoring covered by ScoringChecks)
+multiple-row preview and board disable cleanup
+asymmetric edge orientation and consecutive placements

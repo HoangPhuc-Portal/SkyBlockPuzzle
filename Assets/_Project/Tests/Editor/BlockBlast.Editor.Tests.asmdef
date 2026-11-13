@@ -1,0 +1,9 @@
+{
+  "name": "BlockBlast.Editor.Tests",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

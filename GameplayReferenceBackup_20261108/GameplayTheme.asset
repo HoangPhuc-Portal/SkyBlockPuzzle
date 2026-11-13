@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81001421a73ca6c499ef256fe21156c1, type: 3}
+  m_Name: GameplayTheme
+  m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.UI.UITheme
+  panel: {r: 0.086, g: 0.137, b: 0.227, a: 1}
+  cell: {r: 0.165, g: 0.235, b: 0.373, a: 1}
+  bevelLight: {r: 0.239, g: 0.329, b: 0.502, a: 1}
+  bevelDark: {r: 0.118, g: 0.173, b: 0.282, a: 1}
+  ghostValid: {r: 0.29, g: 0.871, b: 0.502, a: 0.6}
+  ghostInvalid: {r: 0.937, g: 0.267, b: 0.267, a: 0.6}
+  overlay: {r: 0, g: 0, b: 0, a: 0}
+  cellPixels: 100
+  gap: 6
+  padding: 14
+  frame: 86
+  boardMaxWidth: 1200
+  trayCellPixels: 68
+  bottomInset: 40
+  scaleFrameArtwork: 1
+  frameArtworkInsets: {x: 0.14, y: 0.14, z: 0.14, w: 0.17}
+  boardCrest: {fileID: 21300000, guid: b2f8cba33ce208943aa8361f526e4bc3, type: 3}
+  boardCrestWidthRatio: 0.13
+  dragScale: 1.1
+  dragAlpha: 0.9
+  dragOffset: 100
+  dragLiftTime: 0.1
+  placeBounceStrength: 0.06
+  placementHighlightDuration: 0.18
+  placementHighlightIntensity: 0.45
+  returnWithOvershoot: 0
+  placementTime: 0.15
+  snapTime: 0.12
+  returnTime: 0.25
+  scoreTime: 0.35
+  flashTime: 0.08
+  clearTime: 0.2
+  shakePixels: 4
+  shakeTime: 0.15
+  comboTime: 0.6
+  gameOverDelay: 0.5
+  gameOverOpenTime: 0.25
+  gameOverCloseTime: 0.15
+  recordFlashTime: 1.2
+  recordGold: {r: 1, g: 0.8352941, b: 0.2901961, a: 1}
+  charge: 1
+  hintCooldown: 1
+  hintPulseTime: 0.3
+  panelSprite: {fileID: 21300000, guid: f2038d2f3aa2e1347ad55cdecf6fc421, type: 3}
+  cellSprite: {fileID: 21300000, guid: 5004ff21564647dfb98095bde3d55422, type: 3}
+  frameSprite: {fileID: 21300000, guid: fa5c26c5e3d04184be7e55a9edf3fa90, type: 3}
+  slotSprite: {fileID: 21300000, guid: cb4f653326f219140921bd302feb21e1, type: 3}
+  whiteBlock: {fileID: 21300000, guid: 8f663cffe381366449aadb213f07649b, type: 3}
+  squareParticle: {fileID: 21300000, guid: 40a1c646542ddda449e3cd9d892fde11, type: 3}
+  blockSprites:
+  - {fileID: 21300000, guid: da2fd51b395a4750a219e3ef0ff6f598, type: 3}
+  - {fileID: 21300000, guid: 1ac73e5e3791430db3dcc5e2e824c82c, type: 3}
+  - {fileID: 21300000, guid: 397d729572444a93b27976a54a4f6319, type: 3}
+  - {fileID: 21300000, guid: d85c868309b64852acbbdc891a309343, type: 3}
+  - {fileID: 21300000, guid: da2fd51b395a4750a219e3ef0ff6f598, type: 3}
+  - {fileID: 21300000, guid: aa1ca215a70f496c9963e8e8eddd43e6, type: 3}
+  - {fileID: 21300000, guid: 397d729572444a93b27976a54a4f6319, type: 3}
+  - {fileID: 21300000, guid: aa1ca215a70f496c9963e8e8eddd43e6, type: 3}
+  blockUsesTint: 0000000000000000
+  highlightedSprites:
+  - {fileID: 21300000, guid: da2fd51b395a4750a219e3ef0ff6f598, type: 3}
+  - {fileID: 21300000, guid: 1ac73e5e3791430db3dcc5e2e824c82c, type: 3}
+  - {fileID: 21300000, guid: 397d729572444a93b27976a54a4f6319, type: 3}
+  - {fileID: 21300000, guid: d85c868309b64852acbbdc891a309343, type: 3}
+  - {fileID: 21300000, guid: da2fd51b395a4750a219e3ef0ff6f598, type: 3}
+  - {fileID: 21300000, guid: aa1ca215a70f496c9963e8e8eddd43e6, type: 3}
+  - {fileID: 21300000, guid: 397d729572444a93b27976a54a4f6319, type: 3}
+  - {fileID: 21300000, guid: aa1ca215a70f496c9963e8e8eddd43e6, type: 3}
+  disabledSprites:
+  - {fileID: 21300000, guid: da2fd51b395a4750a219e3ef0ff6f598, type: 3}
+  - {fileID: 21300000, guid: 1ac73e5e3791430db3dcc5e2e824c82c, type: 3}
+  - {fileID: 21300000, guid: 397d729572444a93b27976a54a4f6319, type: 3}
+  - {fileID: 21300000, guid: d85c868309b64852acbbdc891a309343, type: 3}
+  - {fileID: 21300000, guid: da2fd51b395a4750a219e3ef0ff6f598, type: 3}
+  - {fileID: 21300000, guid: aa1ca215a70f496c9963e8e8eddd43e6, type: 3}
+  - {fileID: 21300000, guid: 397d729572444a93b27976a54a4f6319, type: 3}
+  - {fileID: 21300000, guid: aa1ca215a70f496c9963e8e8eddd43e6, type: 3}
+  blockColors:
+  - {r: 0.23137255, g: 0.50980395, b: 0.9647059, a: 1}
+  - {r: 0.98039216, g: 0.8, b: 0.08235294, a: 1}
+  - {r: 0.9372549, g: 0.26666668, b: 0.26666668, a: 1}
+  - {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  - {r: 0.023529412, g: 0.7137255, b: 0.83137256, a: 1}
+  - {r: 0.65882355, g: 0.33333334, b: 0.96862745, a: 1}
+  - {r: 0.9764706, g: 0.4509804, b: 0.08627451, a: 1}
+  - {r: 0.9254902, g: 0.28235295, b: 0.6, a: 1}

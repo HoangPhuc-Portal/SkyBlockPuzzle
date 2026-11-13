@@ -1,0 +1,1768 @@
+fileFormatVersion: 2
+guid: 97b41ebb4203cff49947a7a74f04718b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7588745312150869981
+    second: UI_game_nen_trong_suot_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 578
+        width: 415
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3282652785c5fa690800000000000000
+      internalID: -7588745312150869981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 575
+        width: 390
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9e56e9e50821242992b3eab69fd2b0
+      internalID: -1445307881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_2
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 930
+        width: 371
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd5eef31d473464d8510d96d2ed3e0e
+      internalID: -561266521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_3
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 702
+        width: 320
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac46bf09db7d527498dc1cc1c2772103
+      internalID: -593910626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_4
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 836
+        width: 294
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44abbf6385ed4e1498996bb8b6617844
+      internalID: 536285914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_5
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 836
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e02bf3319f49848ad2d78306ff162a
+      internalID: -1061504147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_6
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 768
+        width: 367
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da86e0b553e752943a31d1e9ca99e2ef
+      internalID: -1568885233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_7
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 707
+        width: 127
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1a65ecdc06ad54da286fe437584841
+      internalID: 1075435975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_8
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 707
+        width: 120
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d965277c1aa0b4d9dd11adf6fdc3f5
+      internalID: -117460364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_9
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 707
+        width: 107
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d4973fba3cea544a5acc8f094a46a4
+      internalID: 1589474471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_10
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 630
+        width: 112
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599ebf62da641694aa74eacd7815450f
+      internalID: 378565993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_11
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 630
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66704f2284d43854182280a0b4cbfcbe
+      internalID: -212249816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_12
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 630
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c664dc15d52a54ea97d4c00db16188
+      internalID: 674187894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_13
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 631
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6ecf01b4adf39459516b08395a660e
+      internalID: 1882130584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_14
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 631
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673114eec00ac29468ee58fe54c09b3a
+      internalID: -1674330599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_15
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 631
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67844960623ef54b84c9ce804792fc2
+      internalID: -546230661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_16
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 631
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76909a71d4d1cd74e809341ddc531f9d
+      internalID: 1767463933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_17
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 631
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4077b100e888c9744a8cd7df307771ce
+      internalID: 1132553181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_18
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 631
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d1a810f1c50ca44aea38f7ee3f7733
+      internalID: -1154540100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 562
+        width: 121
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e735762db941ee44f9920912abeac023
+      internalID: -563556172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_20
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 560
+        width: 111
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a75a6312928bf04599ab4c0b9dde36f
+      internalID: -1885538955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_21
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 562
+        width: 107
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989acc2a9cf37024eb95d25188634a98
+      internalID: 1145828098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_22
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 562
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e0537c605e2474bb4c6394b848ef21
+      internalID: -1261212714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_23
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 562
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f286641db436af343b48d9f452f4d3bf
+      internalID: -247209638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_24
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 560
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71866b69545366d4c8af9d84a5f914ef
+      internalID: -1934997368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_25
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 562
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18871c9cc68f7584fa25c2d6c9441e0a
+      internalID: 1398365254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_26
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 562
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f298900857a4d4d9339a8229ea973b
+      internalID: 788183124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 466
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b73f40606a594aa434ec921bf2b9a
+      internalID: 2036559400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_28
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 466
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f907e0d6c470a4e9f5ec3c9e786c44
+      internalID: -753808245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_29
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 466
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ae57380dac0af4cbaad8da7937a22b
+      internalID: -163357735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 466
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57a45014f25ba34c9960bb2e8131bb6
+      internalID: -422324737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 466
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df271d00a997ce4fb56698141b2291d
+      internalID: -586681577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 466
+        width: 82
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243f3c5ec28f8aa41bf825d9b666f2a1
+      internalID: 1026209000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_33
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 394
+        width: 100
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401dddc5b34fe194ea4bef61aa652c48
+      internalID: -1137345757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_34
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 389
+        width: 113
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d0d2d21c4520841b3828a698e2a04b
+      internalID: -861767217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_35
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 458
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c77380d6f17d04daa29f98d1399931
+      internalID: -894675032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_36
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 282
+        width: 176
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0c31fe65656864eb1e0f26bf6df586
+      internalID: 1556409108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_37
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 323
+        width: 251
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42842200fdb75034d8535987590035be
+      internalID: 1703729423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_38
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 491
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df747f5f2b76966409aa2dedc629ee1f
+      internalID: 696409887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_39
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 488
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c112d95181559840889e53349843d67
+      internalID: -617563351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_40
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 491
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089caf42e7d60cf4a8e2590fbefbcee4
+      internalID: -511073385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 302
+        width: 94
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a8e5dededf3d9459557399cd8bb753
+      internalID: 970046972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_42
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 302
+        width: 92
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd881fc9ae5cb543b1c803a8ba0755f
+      internalID: -635852736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_43
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 342
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3b323f45c07c2499c73ba0401fd103
+      internalID: -929507005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_44
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 300
+        width: 59
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d425265e9397fc48bbd1ceba842a7c7
+      internalID: -918753262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_45
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 302
+        width: 102
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f6b3934d71ea04ca900bc83b0f9b01
+      internalID: 1282975795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 302
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4994d08a36114b54faf6e04a9bf6d066
+      internalID: 1013274685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_47
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 386
+        width: 115
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3096f35cbb5ae4b87418748ab908cf
+      internalID: -1485102904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_48
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 406
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1fc5977aab13e4d9006d3dc195e175
+      internalID: 796141557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_49
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 402
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c33e45c24fe67f488db0f1a5bd9a625
+      internalID: 2073259095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_50
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 286
+        width: 241
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f29f25be4c3cc24385946e8ec099099
+      internalID: 1221045509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_51
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 258
+        width: 141
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6838813f10d7e4fb41f6ce76d921cd
+      internalID: 2135771038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_52
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 334
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab7af70345b064d9654299cb707712
+      internalID: 2086981205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 31
+        width: 259
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82b07d65b582c4297ebda7315e4eb3
+      internalID: -1071082624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 30
+        width: 270
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0517e89ba31f5b4995fd9279f744631
+      internalID: -410307568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_55
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 31
+        width: 172
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e34e90fcbe77f45b0a65e8c3dcbc1c
+      internalID: 109132050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_56
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 274
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82729fffa8e3eb4fa4ebb82f65ac55d
+      internalID: -1873251401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_57
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 155
+        width: 90
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1987051dc2060c42b0be1cbbc5d46ae
+      internalID: 556158438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_58
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 158
+        width: 75
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d37e3a3821d9c45aad3bc664e613ed
+      internalID: -1177987914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_59
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 162
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebe8c3f602abd44dbb926ff6dc30049
+      internalID: -1311267651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_60
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 154
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db34f813779674da0601d535159b04
+      internalID: 1871836095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_61
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 159
+        width: 79
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ef56b2df89184c8bcca71afaf2f7d
+      internalID: -801540712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_62
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 154
+        width: 112
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7a1bfa8561e984abe0d8793deac6f9
+      internalID: -798915564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_63
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 164
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2370fe4233835542a9e81540061f3f5
+      internalID: 1313826052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_64
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 160
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2828787a8d5d0c446973873b5ce0295a
+      internalID: 1868447129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_65
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 158
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90079802702e50945b8c8333ad054f14
+      internalID: -960760407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_66
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 47
+        width: 451
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f73389e3cacda41aa8387634bad70c
+      internalID: 209023404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_67
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 58
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70356a45e4b626743892187791627a75
+      internalID: 1887249523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_68
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 58
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c85e8dfec1e2134082b0ba5a30a168d
+      internalID: -814311794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_69
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 51
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46d2ff0b8144b2418f27da04ad70ec2
+      internalID: -373484836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_game_nen_trong_suot_70
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 53
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e9569ec4953d459bdefcfb433c00b
+      internalID: -400342240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f39e64b7810e04c4ba2327d9f87310d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      UI_game_nen_trong_suot_0: -7588745312150869981
+      UI_game_nen_trong_suot_1: -1445307881
+      UI_game_nen_trong_suot_10: 378565993
+      UI_game_nen_trong_suot_11: -212249816
+      UI_game_nen_trong_suot_12: 674187894
+      UI_game_nen_trong_suot_13: 1882130584
+      UI_game_nen_trong_suot_14: -1674330599
+      UI_game_nen_trong_suot_15: -546230661
+      UI_game_nen_trong_suot_16: 1767463933
+      UI_game_nen_trong_suot_17: 1132553181
+      UI_game_nen_trong_suot_18: -1154540100
+      UI_game_nen_trong_suot_19: -563556172
+      UI_game_nen_trong_suot_2: -561266521
+      UI_game_nen_trong_suot_20: -1885538955
+      UI_game_nen_trong_suot_21: 1145828098
+      UI_game_nen_trong_suot_22: -1261212714
+      UI_game_nen_trong_suot_23: -247209638
+      UI_game_nen_trong_suot_24: -1934997368
+      UI_game_nen_trong_suot_25: 1398365254
+      UI_game_nen_trong_suot_26: 788183124
+      UI_game_nen_trong_suot_27: 2036559400
+      UI_game_nen_trong_suot_28: -753808245
+      UI_game_nen_trong_suot_29: -163357735
+      UI_game_nen_trong_suot_3: -593910626
+      UI_game_nen_trong_suot_30: -422324737
+      UI_game_nen_trong_suot_31: -586681577
+      UI_game_nen_trong_suot_32: 1026209000
+      UI_game_nen_trong_suot_33: -1137345757
+      UI_game_nen_trong_suot_34: -861767217
+      UI_game_nen_trong_suot_35: -894675032
+      UI_game_nen_trong_suot_36: 1556409108
+      UI_game_nen_trong_suot_37: 1703729423
+      UI_game_nen_trong_suot_38: 696409887
+      UI_game_nen_trong_suot_39: -617563351
+      UI_game_nen_trong_suot_4: 536285914
+      UI_game_nen_trong_suot_40: -511073385
+      UI_game_nen_trong_suot_41: 970046972
+      UI_game_nen_trong_suot_42: -635852736
+      UI_game_nen_trong_suot_43: -929507005
+      UI_game_nen_trong_suot_44: -918753262
+      UI_game_nen_trong_suot_45: 1282975795
+      UI_game_nen_trong_suot_46: 1013274685
+      UI_game_nen_trong_suot_47: -1485102904
+      UI_game_nen_trong_suot_48: 796141557
+      UI_game_nen_trong_suot_49: 2073259095
+      UI_game_nen_trong_suot_5: -1061504147
+      UI_game_nen_trong_suot_50: 1221045509
+      UI_game_nen_trong_suot_51: 2135771038
+      UI_game_nen_trong_suot_52: 2086981205
+      UI_game_nen_trong_suot_53: -1071082624
+      UI_game_nen_trong_suot_54: -410307568
+      UI_game_nen_trong_suot_55: 109132050
+      UI_game_nen_trong_suot_56: -1873251401
+      UI_game_nen_trong_suot_57: 556158438
+      UI_game_nen_trong_suot_58: -1177987914
+      UI_game_nen_trong_suot_59: -1311267651
+      UI_game_nen_trong_suot_6: -1568885233
+      UI_game_nen_trong_suot_60: 1871836095
+      UI_game_nen_trong_suot_61: -801540712
+      UI_game_nen_trong_suot_62: -798915564
+      UI_game_nen_trong_suot_63: 1313826052
+      UI_game_nen_trong_suot_64: 1868447129
+      UI_game_nen_trong_suot_65: -960760407
+      UI_game_nen_trong_suot_66: 209023404
+      UI_game_nen_trong_suot_67: 1887249523
+      UI_game_nen_trong_suot_68: -814311794
+      UI_game_nen_trong_suot_69: -373484836
+      UI_game_nen_trong_suot_7: 1075435975
+      UI_game_nen_trong_suot_70: -400342240
+      UI_game_nen_trong_suot_8: -117460364
+      UI_game_nen_trong_suot_9: 1589474471
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

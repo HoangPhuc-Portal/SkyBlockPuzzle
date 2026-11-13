@@ -1,0 +1,1 @@
+PASS: MainMenu visible banner=1; hidden before load; Gameplay visible banner=0; returned MainMenu visible banner=1; same singleton; initialization=1. Banner creations=2

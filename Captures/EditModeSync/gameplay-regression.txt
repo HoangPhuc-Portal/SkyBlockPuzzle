@@ -1,0 +1,1 @@
+PASS: 17 catalog references; 41 unique random/runtime orientations; all 41 rendered with correct cell count, real OnBeginDrag/OnDrag/OnEndDrag, preview, exact occupancy, score and invalid overlap. Long lines fit tray, clear horizontal/vertical lines with score 315. Hint, full-board Game Over and free Replay pass. Record restored.

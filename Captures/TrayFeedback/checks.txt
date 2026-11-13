@@ -1,0 +1,16 @@
+PASS Tray starts without glow
+PASS Drag glow enabled 0
+PASS No duplicate tiles/glows 0
+PASS Cancel/invalid return clears glow 0
+PASS Drag glow enabled 1
+PASS No duplicate tiles/glows 1
+PASS Cancel/invalid return clears glow 1
+PASS Drag glow enabled 2
+PASS No duplicate tiles/glows 2
+PASS Cancel/invalid return clears glow 2
+PASS Successful occupancy starts visual bounce
+PASS Placement flash active
+PASS Exact scale restored and flash stopped
+PASS Disable clears drag glow
+PASS Reenable does not revive glow
+ALL PASSED

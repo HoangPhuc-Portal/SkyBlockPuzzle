@@ -1,0 +1,1 @@
+PASS: Settings buttons present; unavailable/cancel/failed keep round; busy blocks Home/Close/repeated Replay; earned resets score/board/tray once, preserves record; Home loads MainMenu without calling provider.

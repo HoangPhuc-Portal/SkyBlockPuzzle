@@ -1,0 +1,134 @@
+--- Before repair
++++ After repair
+@@ -12515,6 +12515,7 @@
+   m_LocalScale: {x: 1, y: 1, z: 1}
+   m_ConstrainProportionsScale: 0
+   m_Children:
++  - {fileID: 657864671}
+   - {fileID: 895145661}
+   - {fileID: 57655300}
+   m_Father: {fileID: 1245488543}
+@@ -18650,9 +18651,9 @@
+   recordGlow: {fileID: 1446014589}
+   replayButton: {fileID: 1535765770}
+   viewBoardButton: {fileID: 1872406226}
+-  hud: {fileID: 0}
+-  hint: {fileID: 0}
+-  settings: {fileID: 0}
++  hud: {fileID: 657864672}
++  hint: {fileID: 657864673}
++  settings: {fileID: 657864674}
+   clearPresentation: {fileID: 1443385564}
+   bubbles: {fileID: 1971071855}
+   rewards: {fileID: 1866986798}
+@@ -18682,9 +18683,9 @@
+   m_Name: 
+   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.UI.RewardedGameplay
+   provider: {fileID: 1866986799}
+-  hint: {fileID: 0}
++  hint: {fileID: 657864673}
+   gameOver: {fileID: 1866986796}
+-  settings: {fileID: 0}
++  settings: {fileID: 657864674}
+   hintPopup: {fileID: 2017584242}
+   watchHint: {fileID: 1195717110}
+   closeHint: {fileID: 1058517522}
+@@ -22239,3 +22240,98 @@
+   - {fileID: 680595369}
+   - {fileID: 1585029796}
+   - {fileID: 901139084}
++--- !u!1 &657864670
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 657864671}
++  - component: {fileID: 657864674}
++  - component: {fileID: 657864673}
++  - component: {fileID: 657864672}
++  m_Layer: 0
++  m_Name: HUD
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!224 &657864671
++RectTransform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 657864670}
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 1124333987}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++  m_AnchorMin: {x: 0.025, y: 0.8}
++  m_AnchorMax: {x: 0.975, y: 0.95}
++  m_AnchoredPosition: {x: 0, y: 0}
++  m_SizeDelta: {x: 0, y: 0}
++  m_Pivot: {x: 0.5, y: 0.5}
++--- !u!114 &657864672
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 657864670}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 4730a28245f0d0643baa018471bf215a, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.UI.GameHUD
++  theme: {fileID: 11400000, guid: 30fdeed4b628a3d4ab56741e466da32c, type: 2}
++  score: {fileID: 1927241969}
++  highScore: {fileID: 1189233062}
++  separateScorePlates: 1
++--- !u!114 &657864673
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 657864670}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 29b582727bd374e4a803fad26472c9b1, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.UI.HintController
++  theme: {fileID: 11400000, guid: 30fdeed4b628a3d4ab56741e466da32c, type: 2}
++  board: {fileID: 548764848}
++  tray: {fileID: 1172301881}
++  button: {fileID: 1355585722}
++  initialHintCount: 3
++  counter: {fileID: 1681473304}
++  rewards: {fileID: 1866986798}
++--- !u!114 &657864674
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 657864670}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 973f5612cb1282e44b7b708f01106c3a, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.UI.SettingsPanel
++  popup: {fileID: 57655299}
++  music: {fileID: 698230090}
++  sfx: {fileID: 498543675}
++  haptic: {fileID: 305499684}
++  open: {fileID: 1905432178}
++  close: {fileID: 1549441751}
++  rewards: {fileID: 1866986798}
++  home: {fileID: 850640663}
++  replay: {fileID: 1361282929}
++  replayStatus: {fileID: 1194136026}

@@ -1,0 +1,74 @@
+using System;using System.IO;using System.Linq;using UnityEngine;using UnityEngine.UI;using UnityEditor;using UnityEditor.U2D;using UnityEngine.U2D;using TMPro;using BlockBlast.UI;using BlockBlast.Grid;using BlockBlast.Shape;
+public static class GameplayUIInstaller {
+ const string Root="Assets/_Project/UI/Generated";
+ static UITheme theme;
+ static void Set(UnityEngine.Object target,string field,UnityEngine.Object value){var so=new SerializedObject(target);so.FindProperty(field).objectReferenceValue=value;so.ApplyModifiedPropertiesWithoutUndo();}
+ static Sprite Asset(string name)=>AssetDatabase.LoadAssetAtPath<Sprite>(Root+"/"+name+".png");
+ static Sprite SpriteAt(string path,string name=null)=>AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().First(s=>name==null||s.name==name);
+ static Sprite Texture(string name,Color top,Color bottom,int radius,int border=0,bool stone=false) {
+ int n=256;var tex=new Texture2D(n,n,TextureFormat.RGBA32,false);var pixels=new Color[n*n];for(int y=0;y<n;y++)for(int x=0;x<n;x++){
+ float dx=Mathf.Max(radius-x,0,x-(n-1-radius)),dy=Mathf.Max(radius-y,0,y-(n-1-radius));bool inside=dx*dx+dy*dy<=radius*radius;
+ Color c=Color.Lerp(bottom,top,y/(float)(n-1));if(!inside)c=Color.clear;else if(border>0&&x>border&&x<n-border&&y>border&&y<n-border)c=Color.clear;
+ else {int edge=Mathf.Min(x,y,n-x-1,n-y-1);if(edge<6)c=Color.Lerp(c,y>x?Color.white:Color.black,.22f);if(stone){float noise=Mathf.PerlinNoise(x*.09f,y*.09f);c*=.85f+.25f*noise;if(x%58<2||y%61<2)c*=.75f;}}
+ pixels[y*n+x]=c;}tex.SetPixels(pixels);tex.Apply();File.WriteAllBytes(Root+"/"+name+".png",tex.EncodeToPNG());UnityEngine.Object.DestroyImmediate(tex);AssetDatabase.ImportAsset(Root+"/"+name+".png");var imp=(TextureImporter)AssetImporter.GetAtPath(Root+"/"+name+".png");imp.textureType=TextureImporterType.Sprite;imp.spriteImportMode=SpriteImportMode.Single;imp.spritePixelsPerUnit=100;var settings=new TextureImporterSettings();imp.ReadTextureSettings(settings);settings.spriteMeshType=SpriteMeshType.FullRect;imp.SetTextureSettings(settings);imp.filterMode=FilterMode.Bilinear;imp.textureCompression=TextureImporterCompression.Uncompressed;imp.mipmapEnabled=false;imp.spriteBorder=new Vector4(Mathf.Max(radius,border+2),Mathf.Max(radius,border+2),Mathf.Max(radius,border+2),Mathf.Max(radius,border+2));imp.SaveAndReimport();return Asset(name);}
+ [MenuItem("Block Blast/UI/Generate Placeholder Art")]
+ public static void GenerateArt(){Directory.CreateDirectory(Root);theme=AssetDatabase.LoadAssetAtPath<UITheme>("Assets/_Project/ScriptableObjects/UITheme.asset");
+ theme.panelSprite=Texture("Panel",Color.white,Color.white,32);
+ theme.cellSprite=Texture("CellBeveled",theme.bevelLight,theme.bevelDark,24);
+ theme.frameSprite=Texture("StoneFrame",new Color(.38f,.36f,.30f),new Color(.20f,.23f,.19f),28,24,true);
+ theme.slotSprite=Texture("TraySlot",new Color(.6f,.8f,1,.3f),new Color(.2f,.4f,.6f,.12f),28,5);
+ theme.whiteBlock=Texture("BlockWhite",Color.white,new Color(.65f,.68f,.72f),30);
+ theme.squareParticle=Texture("SquareParticle",Color.white,Color.white,0);
+ for(int i=0;i<8;i++){theme.blockSprites[i]=i<6?SpriteAt("Assets/_Project/_Assets/UI_game_nen_trong_suot.png","UI_game_nen_trong_suot_"+(27+i)):theme.whiteBlock;theme.highlightedSprites[i]=theme.blockSprites[i];theme.disabledSprites[i]=theme.blockSprites[i];}
+ EditorUtility.SetDirty(theme);AssetDatabase.SaveAssets();
+ var atlas=new SpriteAtlas();SpriteAtlasExtensions.SetPackingSettings(atlas,new SpriteAtlasPackingSettings{padding=4,enableRotation=false,enableTightPacking=false});SpriteAtlasExtensions.SetTextureSettings(atlas,new SpriteAtlasTextureSettings{filterMode=FilterMode.Bilinear,generateMipMaps=false,readable=false,sRGB=true});
+ SpriteAtlasExtensions.Add(atlas,new UnityEngine.Object[]{AssetDatabase.LoadAssetAtPath<DefaultAsset>(Root),AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/_Project/_Assets/UI_game_nen_trong_suot.png")});
+ if(AssetDatabase.LoadAssetAtPath<SpriteAtlas>("Assets/_Project/UI/Gameplay.spriteatlas")==null)AssetDatabase.CreateAsset(atlas,"Assets/_Project/UI/Gameplay.spriteatlas");else UnityEngine.Object.DestroyImmediate(atlas);
+ }
+ static RectTransform Node(string name,Transform parent,Vector2 min,Vector2 max){var go=new GameObject(name,typeof(RectTransform));go.transform.SetParent(parent,false);var r=(RectTransform)go.transform;r.anchorMin=min;r.anchorMax=max;r.offsetMin=r.offsetMax=Vector2.zero;return r;}
+ static Image Image(string name,Transform parent,Color color,Sprite sprite=null){var r=Node(name,parent,Vector2.zero,Vector2.one);var image=r.gameObject.AddComponent<Image>();image.sprite=sprite;image.type=sprite!=null?UnityEngine.UI.Image.Type.Sliced:UnityEngine.UI.Image.Type.Simple;image.color=color;image.raycastTarget=false;return image;}
+ static TextMeshProUGUI Text(string name,Transform parent,string value,float size,Color color){var r=Node(name,parent,Vector2.zero,Vector2.one);var text=r.gameObject.AddComponent<TextMeshProUGUI>();text.font=TMP_Settings.defaultFontAsset;text.text=value;text.fontSize=size;text.color=color;text.alignment=TextAlignmentOptions.Center;text.raycastTarget=false;return text;}
+ static Button Button(string name,Transform parent,string label,Vector2 min,Vector2 max){var r=Node(name,parent,min,max);var image=r.gameObject.AddComponent<Image>();image.sprite=theme.panelSprite;image.type=UnityEngine.UI.Image.Type.Sliced;image.color=new Color(.22f,.35f,.48f,.8f);var b=r.gameObject.AddComponent<Button>();b.targetGraphic=image;r.gameObject.AddComponent<ButtonFeedback>();Text("Icon",r,label,48,Color.white);return b;}
+ static Slider Slider(string name,Transform parent,Vector2 min,Vector2 max){var r=Node(name,parent,min,max);var bg=Image("Track",r,new Color(.15f,.24f,.36f),theme.panelSprite);var fill=Image("Fill",r,new Color(.29f,.87f,.5f),theme.panelSprite);var handle=Image("Handle",r,Color.white,theme.panelSprite);handle.rectTransform.anchorMin=handle.rectTransform.anchorMax=new Vector2(.5f,.5f);handle.rectTransform.sizeDelta=new Vector2(48,64);handle.raycastTarget=true;var slider=r.gameObject.AddComponent<Slider>();slider.fillRect=fill.rectTransform;slider.handleRect=handle.rectTransform;slider.targetGraphic=handle;return slider;}
+ [MenuItem("Block Blast/UI/Install Gameplay UI")]
+ public static string Install(){theme=AssetDatabase.LoadAssetAtPath<UITheme>("Assets/_Project/ScriptableObjects/UITheme.asset");var scene=UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();if(scene.isDirty)throw new InvalidOperationException("Save/review current scene before install.");
+ if(GameObject.Find("HUD")!=null)return "Gameplay UI already installed; edit UITheme / Inspector";
+ var canvas=UnityEngine.Object.FindFirstObjectByType<Canvas>();var safe=canvas.transform.Find("SafeArea");var tray=UnityEngine.Object.FindFirstObjectByType<TrayManager>();var board=UnityEngine.Object.FindFirstObjectByType<GridBoard>();
+ Undo.SetCurrentGroupName("Gameplay UI redesign");
+ foreach(string name in new[]{"Topbar","TrayBackground"}){var old=safe.Find(name);if(old!=null)Undo.DestroyObjectImmediate(old.gameObject);}
+ var dim=Image("BackgroundDim",canvas.transform,theme.overlay);dim.transform.SetAsFirstSibling();
+ var hud=Node("HUD",safe,new Vector2(.035f,.865f),new Vector2(.965f,.975f));var panel=Image("Pill",hud,new Color(theme.panel.r,theme.panel.g,theme.panel.b,.85f),theme.panelSprite);
+ var scoreArea=Node("ScoreArea",hud,new Vector2(.03f,.15f),new Vector2(.36f,.85f));Text("Trophy",scoreArea,"★",64,new Color(1,.84f,.29f)).rectTransform.anchorMax=new Vector2(.22f,1);var score=Text("Score",scoreArea,"0",56,Color.white);score.rectTransform.anchorMin=new Vector2(.25f,0);score.fontStyle=FontStyles.Bold;score.fontMaterial=new Material(score.fontSharedMaterial);score.outlineColor=Color.black;score.outlineWidth=.2f;
+ var high=Text("HighScore",hud,"BEST 0",36,new Color(1,.84f,.29f));high.rectTransform.anchorMin=new Vector2(.36f,.2f);high.rectTransform.anchorMax=new Vector2(.66f,.8f);
+ var settings=Button("Settings",hud,"⚙",new Vector2(.69f,.27f),new Vector2(.82f,.73f));var hint=Button("Hint",hud,"?",new Vector2(.84f,.27f),new Vector2(.97f,.73f));
+ var viewport=Node("BoardRegion",safe,new Vector2(.025f,.315f),new Vector2(.975f,.865f));
+ var surface=Node("BoardSurface",viewport,new Vector2(.5f,.5f),new Vector2(.5f,.5f));surface.sizeDelta=new Vector2(1024,1024);
+ var panelBg=Image("BoardPanel",surface,theme.panel,theme.panelSprite);var frame=Image("StoneFrame",surface,Color.white,theme.frameSprite);frame.transform.SetAsFirstSibling();panelBg.rectTransform.offsetMin=Vector2.one*theme.frame;panelBg.rectTransform.offsetMax=-Vector2.one*theme.frame;
+ // World sprites render below Overlay canvas: opaque panel goes to world instead.
+ surface.gameObject.SetActive(false);
+ foreach(string name in new[]{"FrameBoard","BoardBase"}){var old=board.transform.Find(name);if(old!=null){if(name=="BoardBase"){var parent=old.Find("BoardParent");if(parent!=null)parent.SetParent(board.transform,true);}old.gameObject.SetActive(false);}}
+ var boardView=viewport.gameObject.AddComponent<BoardView>();Set(boardView,"theme",theme);Set(boardView,"board",board);Set(boardView,"viewport",viewport);
+ var worldPanel=new GameObject("BoardPanelView",typeof(SpriteRenderer));worldPanel.transform.SetParent(board.transform,false);var renderer=worldPanel.GetComponent<SpriteRenderer>();renderer.sprite=theme.panelSprite;renderer.color=theme.panel;renderer.sortingOrder=-2;renderer.drawMode=SpriteDrawMode.Sliced;renderer.size=new Vector2(8.9f,8.9f);
+ var worldFrame=new GameObject("StoneFrameView",typeof(SpriteRenderer));worldFrame.transform.SetParent(board.transform,false);renderer=worldFrame.GetComponent<SpriteRenderer>();renderer.sprite=theme.frameSprite;renderer.sortingOrder=-1;renderer.drawMode=SpriteDrawMode.Sliced;renderer.size=new Vector2(9.5f,9.5f);
+ var trayRect=(RectTransform)tray.transform;trayRect.anchorMin=new Vector2(.035f,.04f);trayRect.anchorMax=new Vector2(.965f,.29f);trayRect.offsetMin=trayRect.offsetMax=Vector2.zero;
+ var layout=tray.GetComponent<HorizontalLayoutGroup>();layout.enabled=false;var trayBg=tray.GetComponent<Image>();trayBg.sprite=theme.panelSprite;trayBg.type=UnityEngine.UI.Image.Type.Sliced;trayBg.color=new Color(theme.panel.r,theme.panel.g,theme.panel.b,.6f);trayBg.raycastTarget=false;
+ var groups=new CanvasGroup[3];for(int i=0;i<3;i++){var slot=(RectTransform)tray.transform.Find("slot_"+i);slot.anchorMin=new Vector2(i/3f+.015f,.12f);slot.anchorMax=new Vector2((i+1)/3f-.015f,.88f);slot.offsetMin=slot.offsetMax=Vector2.zero;var im=slot.GetComponent<Image>();im.sprite=theme.slotSprite;im.type=UnityEngine.UI.Image.Type.Sliced;im.color=Color.white;im.raycastTarget=false;groups[i]=slot.gameObject.AddComponent<CanvasGroup>();}
+ var tc=tray.gameObject.AddComponent<TrayController>();Set(tc,"theme",theme);Set(tc,"tray",tray);var serialized=new SerializedObject(tc);var arr=serialized.FindProperty("slots");arr.arraySize=3;for(int i=0;i<3;i++)arr.GetArrayElementAtIndex(i).objectReferenceValue=groups[i];serialized.ApplyModifiedPropertiesWithoutUndo();
+ var traySO=new SerializedObject(tray);var shapePath=AssetDatabase.GetAssetPath(traySO.FindProperty("shapePrefab").objectReferenceValue);var shapeRoot=PrefabUtility.LoadPrefabContents(shapePath);var pv=shapeRoot.AddComponent<PieceView>();Set(pv,"theme",theme);PrefabUtility.SaveAsPrefabAsset(shapeRoot,shapePath);PrefabUtility.UnloadPrefabContents(shapeRoot);
+ var popupMask=Node("SettingsPopup",safe,Vector2.zero,Vector2.one);var mask=popupMask.gameObject.AddComponent<Image>();mask.color=new Color(0,0,0,.7f);var popup=Node("Panel",popupMask,new Vector2(.08f,.25f),new Vector2(.92f,.72f));Image("Background",popup,theme.panel,theme.panelSprite);
+ Text("Title",popup,"SETTINGS",56,Color.white).rectTransform.anchorMin=new Vector2(0,.83f);
+ var musicLabel=Text("MusicLabel",popup,"Music",36,Color.white);musicLabel.rectTransform.anchorMin=new Vector2(.1f,.7f);musicLabel.rectTransform.anchorMax=new Vector2(.9f,.8f);var music=Slider("MusicVolume",popup,new Vector2(.1f,.61f),new Vector2(.9f,.66f));
+ var sfxLabel=Text("SFXLabel",popup,"SFX",36,Color.white);sfxLabel.rectTransform.anchorMin=new Vector2(.1f,.49f);sfxLabel.rectTransform.anchorMax=new Vector2(.9f,.59f);var sfx=Slider("SFXVolume",popup,new Vector2(.1f,.4f),new Vector2(.9f,.45f));
+ var toggleNode=Node("Haptic",popup,new Vector2(.1f,.24f),new Vector2(.9f,.33f));var toggle=toggleNode.gameObject.AddComponent<Toggle>();var box=Image("Box",toggleNode,new Color(.25f,.4f,.55f),theme.panelSprite);box.rectTransform.anchorMax=new Vector2(.12f,1);box.raycastTarget=true;var check=Image("Check",box.transform,new Color(.29f,.87f,.5f),theme.panelSprite);check.rectTransform.offsetMin=Vector2.one*8;check.rectTransform.offsetMax=-Vector2.one*8;toggle.targetGraphic=box;toggle.graphic=check;Text("Label",toggleNode,"Haptic vibration",32,Color.white).rectTransform.anchorMin=new Vector2(.17f,0);
+ var close=Button("Close",popup,"CLOSE",new Vector2(.3f,.06f),new Vector2(.7f,.18f));
+ var settingsPanel=hud.gameObject.AddComponent<SettingsPanel>();Set(settingsPanel,"popup",popupMask.gameObject);Set(settingsPanel,"music",music);Set(settingsPanel,"sfx",sfx);Set(settingsPanel,"haptic",toggle);Set(settingsPanel,"open",settings);Set(settingsPanel,"close",close);popupMask.gameObject.SetActive(false);
+ var hc=hud.gameObject.AddComponent<HintController>();Set(hc,"theme",theme);Set(hc,"board",board);Set(hc,"tray",tray);Set(hc,"button",hint);
+ var gh=hud.gameObject.AddComponent<GameHUD>();Set(gh,"theme",theme);Set(gh,"score",score);Set(gh,"highScore",high);
+ var ui=UnityEngine.Object.FindFirstObjectByType<BlockBlast.UI.UIManager>();Set(ui,"scoreText",null);Set(ui,"highScoreText",null);
+ var combo=Text("Combo",viewport,"",64,new Color(1,.84f,.29f));combo.fontStyle=FontStyles.Bold;
+ var fx=new GameObject("ClearPresentation");var presentation=fx.AddComponent<ClearPresentation>();Set(presentation,"theme",theme);Set(presentation,"board",board);Set(presentation,"combo",combo);
+ var config=AssetDatabase.LoadAssetAtPath<BlockBlast.Effects.BubblePopConfig>("Assets/_Project/ScriptableObjects/BubblePopConfig.asset");config.bubbleSprite=theme.squareParticle;config.bubbleCount=8;config.duration=.28f;config.inflateFraction=.08f/.28f;config.staggerDelay=0;config.maximumStagger=0;EditorUtility.SetDirty(config);
+ var cellPath=AssetDatabase.GetAssetPath(new SerializedObject(board).FindProperty("cellPrefab").objectReferenceValue);var cellRoot=PrefabUtility.LoadPrefabContents(cellPath);var cellView=cellRoot.AddComponent<CellView>();Set(cellView,"theme",theme);PrefabUtility.SaveAsPrefabAsset(cellRoot,cellPath);PrefabUtility.UnloadPrefabContents(cellRoot);
+ AssetDatabase.SaveAssets();UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(scene);UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene);return "Installed gameplay UI";
+ }
+}

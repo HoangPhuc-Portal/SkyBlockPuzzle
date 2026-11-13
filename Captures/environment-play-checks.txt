@@ -1,0 +1,1 @@
+PASS: cloud movement; bounded leaf pool; supported water shader; TimeScale/modal pause; disable restores background; board/camera unchanged; no sprite bounds over board or input components; one environment after MainMenu/GamePlay/MainMenu. Device FPS and native GPU still require phone testing.

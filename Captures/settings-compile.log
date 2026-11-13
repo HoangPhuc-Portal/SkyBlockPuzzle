@@ -1,0 +1,40 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.24f1 (4e7b9b5b6244) revision 5143451'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hoang" at "2026-11-01T08:20:50.4381363Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-01T08:20:50Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14428, path: "D:/unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              2f307cbbb1b049c4a6ceeb8abf0bcacf
+  Correlation Id:          fbf468c3b41077308db805b2d44f90e4
+  External correlation Id: 2847612163901971643
+  Machine Id:              3u+F3OcNV0nMOoZpeX7/s0FQASQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hoang" (connect: 0.00s, validation: 0.00s, handshake: 0.13s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hoang-notifications" at "2026-11-01T08:20:50.567612Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968288733094-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.16s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\unity\BlockBlast
+-logFile
+C:\unity\BlockBlast\Captures\settings-compile.log
+Successfully changed project path to: C:\unity\BlockBlast
+C:/unity/BlockBlast
+Exiting without the bug reporter. Application will terminate with return code 1

@@ -1,0 +1,1 @@
+PASS: authoritative combo x1..8 mapping, score formula, hold on 2 no-clear turns, reset on third, smooth fade, particle cap, Game Over, actual Continue, Replay reset, disable/re-enable, low quality and scene unload. Record restored.

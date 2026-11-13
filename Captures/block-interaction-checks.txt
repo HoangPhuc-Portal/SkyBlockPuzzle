@@ -1,0 +1,1 @@
+PASS: drag lift; invalid/outside return; cancel; repeated drag; valid placement exactly once; bounce/flash restore; preview during bounce; clear/reset cancellation; Game Over cancellation; Continue clears animations and spawns 3 pieces. Saved high score restored.

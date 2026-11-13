@@ -1,0 +1,3 @@
+PASS 540x960: board corners visible, occupancy empty, score0, tray3, best=210
+PASS 540x1170: board corners visible, occupancy empty, score0, tray3, best=210
+PASS 540x1200: board corners visible, occupancy empty, score0, tray3, best=210

@@ -1,0 +1,24 @@
+2026-11-04T20:13:24
+PASS: Offline manager does not initialize/load/show; production scene uses existing AdMob provider
+PASS: Offline Game Over Replay, double click, clean board/preview, fresh tray, preserved record/coins
+PASS: Offline Settings Replay and open without ads
+PASS: Offline available Hint consumes exactly one without ad
+PASS: Online Game Over Replay, double click, clean board/preview, fresh tray, preserved record/coins
+PASS: Online Settings Replay and open without ads
+PASS: Online available Hint consumes exactly one without ad
+PASS: Offline exhausted Hint asks for Internet, no grant, no score change, popup closes
+PASS: Online not-ready prepares; cancelled/failed grant zero; earned duplicated callback grants exactly 2, no auto-use
+PASS: Offline Continue rejected; Game Over and board preserved
+PASS: Online failed Continue preserves round; earned Continue clears board, preserves score/record, resets combo and respawns 3
+PASS: Late callback ignored; online-to-offline gameplay continues; offline audio/haptic settings saved and preserved on Replay
+PASS: Offline-to-online restarts existing SDK pipeline without recreating manager (Editor simulator)
+PASS: Offline Settings Home and MainMenu Play scene loading work
+PASS: close without reward
+PASS: duplicate reward and close
+PASS: show failure
+PASS: failure wins over earned
+PASS: late reward after close
+PASS: unloaded recipient ignored
+PASS: earned deferred until full-screen closed
+PASS: editor test IDs
+ALL PASS (simulated network/provider in Editor; native device verification still required).

@@ -1,0 +1,1 @@
+PASS: unavailable/cancelled/failed preserve Game Over; rapid Replay/Continue blocked; earned resets once; score=0, high preserved, hints reset, board/model empty, 3 fresh pieces, input unlocked.

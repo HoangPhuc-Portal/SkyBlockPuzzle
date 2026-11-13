@@ -1,0 +1,2 @@
+MenuQA.GC valid=True samples=72 mean=39057 max=61008
+MenuQA.CPU valid=True samples=72 mean=18933894 max=33132600

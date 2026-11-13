@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81001421a73ca6c499ef256fe21156c1, type: 3}
+  m_Name: UITheme
+  m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.UI.UITheme
+  panel: {r: 0.086, g: 0.137, b: 0.227, a: 1}
+  cell: {r: 0.165, g: 0.235, b: 0.373, a: 1}
+  bevelLight: {r: 0.239, g: 0.329, b: 0.502, a: 1}
+  bevelDark: {r: 0.118, g: 0.173, b: 0.282, a: 1}
+  ghostValid: {r: 0.29, g: 0.871, b: 0.502, a: 0.6}
+  ghostInvalid: {r: 0.937, g: 0.267, b: 0.267, a: 0.6}
+  overlay: {r: 0.105882354, g: 0.16470589, b: 0.22745098, a: 0.1}
+  cellPixels: 100
+  gap: 6
+  padding: 14
+  frame: 86
+  boardMaxWidth: 1024
+  trayCellPixels: 68
+  bottomInset: 40
+  scaleFrameArtwork: 1
+  frameArtworkInsets: {x: 0.11, y: 0.162, z: 0.09, w: 0.104}
+  boardCrest: {fileID: 21300000, guid: b2f8cba33ce208943aa8361f526e4bc3, type: 3}
+  boardCrestWidthRatio: 0.13
+  dragScale: 1.1
+  dragAlpha: 0.9
+  dragOffset: 100
+  dragLiftTime: 0.1
+  dragGlowPixels: 3
+  dragGlowIntensity: 0.55
+  placeBounceStrength: 0.06
+  placementHighlightDuration: 0.18
+  placementHighlightIntensity: 0.45
+  returnWithOvershoot: 0
+  placementTime: 0.15
+  snapTime: 0.12
+  returnTime: 0.25
+  scoreTime: 0.35
+  flashTime: 0.08
+  clearTime: 0.2
+  shakePixels: 4
+  shakeTime: 0.15
+  comboTime: 0.6
+  gameOverDelay: 0.5
+  gameOverOpenTime: 0.25
+  gameOverCloseTime: 0.15
+  recordFlashTime: 1.2
+  recordGold: {r: 1, g: 0.8352941, b: 0.2901961, a: 1}
+  charge: 1
+  hintCooldown: 1
+  hintPulseTime: 0.3
+  panelSprite: {fileID: 21300000, guid: f2038d2f3aa2e1347ad55cdecf6fc421, type: 3}
+  cellSprite: {fileID: 21300000, guid: 5004ff21564647dfb98095bde3d55422, type: 3}
+  frameSprite: {fileID: 21300000, guid: fa5c26c5e3d04184be7e55a9edf3fa90, type: 3}
+  slotSprite: {fileID: 21300000, guid: cb4f653326f219140921bd302feb21e1, type: 3}
+  whiteBlock: {fileID: 21300000, guid: 8f663cffe381366449aadb213f07649b, type: 3}
+  squareParticle: {fileID: 21300000, guid: 40a1c646542ddda449e3cd9d892fde11, type: 3}
+  blockSprites:
+  - {fileID: 21300000, guid: 93ff932a58820c94596eb2954b24fa0e, type: 3}
+  - {fileID: 21300000, guid: 68541bec3ddf9ed4b9e211e4a98b8d96, type: 3}
+  - {fileID: 21300000, guid: 245dc0b856f39014da74646af7a73bb2, type: 3}
+  - {fileID: 21300000, guid: b70b20a8d7b4cf9479040fc4e4ea699e, type: 3}
+  - {fileID: 21300000, guid: ed522f53135460143b3d4e02d5aea67c, type: 3}
+  - {fileID: 21300000, guid: fdc5ce40b9efb9143adcb57746a8b95f, type: 3}
+  - {fileID: 21300000, guid: e754c8cdda8adca4db826a184cc348aa, type: 3}
+  - {fileID: 21300000, guid: b2e2bd85f7672fb4483ed0ebc5aaac2c, type: 3}
+  blockUsesTint: 0000000000000000
+  highlightedSprites:
+  - {fileID: 21300000, guid: d341576f84a8794468572f591ecb30e5, type: 3}
+  - {fileID: 21300000, guid: 974f22f93f843884c9a005474782e00b, type: 3}
+  - {fileID: 21300000, guid: 174b871729b74f84dac4cd2189d681d7, type: 3}
+  - {fileID: 21300000, guid: 0e94224998c2893419ef6608410b54af, type: 3}
+  - {fileID: 21300000, guid: 41ddb92a808c80d439993b8deb235b1c, type: 3}
+  - {fileID: 21300000, guid: ce6832b72183b4f44862b21c088c9e93, type: 3}
+  - {fileID: 21300000, guid: cb52831e768c60843b089157e688980d, type: 3}
+  - {fileID: 21300000, guid: 1893c814d7498e64b8d950717f4f007a, type: 3}
+  disabledSprites:
+  - {fileID: 21300000, guid: 8193d5cfaa54a354fb2329f09d378782, type: 3}
+  - {fileID: 21300000, guid: 6a1ded1acdaf53b4f90b0b1166b5fd9f, type: 3}
+  - {fileID: 21300000, guid: db47d6fd170967a47a8d0d2fc9bfefc0, type: 3}
+  - {fileID: 21300000, guid: 16cda7a9c59f6974c8db304d86c43d34, type: 3}
+  - {fileID: 21300000, guid: ac512774c84ba0b47a0dda542eae37e8, type: 3}
+  - {fileID: 21300000, guid: edc794376b3b9a349841b0fd0ec2154d, type: 3}
+  - {fileID: 21300000, guid: 38c4188596234264e83dce9a949f6c87, type: 3}
+  - {fileID: 21300000, guid: b37160f58519e0648877646047912545, type: 3}
+  blockColors:
+  - {r: 0.23137255, g: 0.50980395, b: 0.9647059, a: 1}
+  - {r: 0.98039216, g: 0.8, b: 0.08235294, a: 1}
+  - {r: 0.9372549, g: 0.26666668, b: 0.26666668, a: 1}
+  - {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  - {r: 0.023529412, g: 0.7137255, b: 0.83137256, a: 1}
+  - {r: 0.65882355, g: 0.33333334, b: 0.96862745, a: 1}
+  - {r: 0.9764706, g: 0.4509804, b: 0.08627451, a: 1}
+  - {r: 0.9254902, g: 0.28235295, b: 0.6, a: 1}

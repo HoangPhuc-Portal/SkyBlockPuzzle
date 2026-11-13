@@ -1,0 +1,6 @@
+File | Seconds | Channels | Hz | LoadType | Compression | Quality | Preload
+Assets/_Project/Audio/drag_block.mp3 | 1.149 | 2 | 44100 | DecompressOnLoad | Vorbis | 1 | True
+Assets/_Project/Audio/drop_block.mp3 | 1.097 | 2 | 44100 | DecompressOnLoad | Vorbis | 1 | True
+Assets/_Project/Audio/gameOver.mp3 | 2.038 | 2 | 44100 | DecompressOnLoad | Vorbis | 1 | True
+Assets/_Project/Audio/select_button.mp3 | 0.456 | 1 | 48000 | DecompressOnLoad | Vorbis | 1 | True
+Assets/_Project/Audio/xoa_hang_cot.mp3 | 1.149 | 2 | 44100 | DecompressOnLoad | Vorbis | 1 | True

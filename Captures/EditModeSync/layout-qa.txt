@@ -1,0 +1,25 @@
+Reference layout QA UTC 2026-11-08T15:51:43.9734305Z
+PASS 960: empty board / score zero
+PASS 960: three runtime pieces
+PASS 960: board fully visible
+PASS 960: square cells / no aspect stretch
+PASS 960: frame slices assigned / no input blocking
+PASS 1170: empty board / score zero
+PASS 1170: three runtime pieces
+PASS 1170: board fully visible
+PASS 1170: square cells / no aspect stretch
+PASS 1170: frame slices assigned / no input blocking
+PASS 1200: empty board / score zero
+PASS 1200: three runtime pieces
+PASS 1200: board fully visible
+PASS 1200: square cells / no aspect stretch
+PASS 1200: frame slices assigned / no input blocking
+PASS All 41 orientations fit inside tray artwork slots
+PASS Settings open locks input 0
+PASS Settings close restores input and scale 0
+PASS Settings open locks input 1
+PASS Settings close restores input and scale 1
+PASS Settings open locks input 2
+PASS Settings close restores input and scale 2
+PASS No missing MonoBehaviour references
+ALL CHECKS PASSED

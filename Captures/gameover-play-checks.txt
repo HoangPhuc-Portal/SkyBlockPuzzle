@@ -1,0 +1,1 @@
+PASS Play Mode: all remaining pieces; single event; realtime delay 0.507s at timeScale=0; placement/drag locked; record crown/gold; view-only unchanged; popup close 0.155s; two in-place resets; three fresh pieces; no stale preview/drag/callback; high score retained.

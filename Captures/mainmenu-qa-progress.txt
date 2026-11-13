@@ -1,0 +1,103 @@
+MainMenu QA 2026-11-07T17:25:52.6457810Z
+PASS No missing scripts
+PASS Shader SkyBlock/MenuIsland
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader SkyBlock/MenuShine
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader SkyBlock/MenuShine
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Shader UI/Default
+PASS Fixed VFX pool 32 objects
+PASS Character animation references
+PASS Settings references assigned
+PASS Single persistent Play handler
+PASS Game View resolution 960
+PASS Visible Play_btn at 960
+PASS Visible img_dragon at 960
+PASS Visible img_character at 960
+PASS Visible SettingsButton at 960
+PASS Visible Logo_img at 960
+PASS Game View resolution 1170
+PASS Visible Play_btn at 1170
+PASS Visible img_dragon at 1170
+PASS Visible img_character at 1170
+PASS Visible SettingsButton at 1170
+PASS Visible Logo_img at 1170
+PASS Game View resolution 1200
+PASS Visible Play_btn at 1200
+PASS Visible img_dragon at 1200
+PASS Visible img_character at 1200
+PASS Visible SettingsButton at 1200
+PASS Visible Logo_img at 1200
+PASS Settings opens and blocks Play
+PASS Settings closes and restores scale
+PASS Settings opens and blocks Play
+PASS Settings closes and restores scale
+PASS Settings opens and blocks Play
+PASS Settings closes and restores scale
+PASS Settings opens and blocks Play
+PASS Settings closes and restores scale
+PASS Music saved/applied immediately
+PASS SFX and haptic saved
+PASS Play reaction precedes scene load
+PASS Play loads Gameplay exactly once cycle 0
+PASS Gameplay initializes 3 pieces
+PASS Return has exactly one menu controller
+PASS Play reaction precedes scene load
+PASS Play loads Gameplay exactly once cycle 1
+PASS Gameplay initializes 3 pieces
+PASS Return has exactly one menu controller
+PASS Play reaction precedes scene load
+PASS Play loads Gameplay exactly once cycle 2
+PASS Gameplay initializes 3 pieces
+PASS Return has exactly one menu controller
+PASS Pool stable at 30 seconds
+sample: allocated=459026403 batches=19 drawCalls=19
+PASS Pool stable at 60 seconds
+sample: allocated=464321584 batches=19 drawCalls=19
+PASS Pool stable at 90 seconds
+sample: allocated=484581261 batches=19 drawCalls=19
+PASS Pool stable at 120 seconds
+sample: allocated=488897830 batches=19 drawCalls=19
+PASS Pool stable at 150 seconds
+sample: allocated=469643404 batches=19 drawCalls=19
+PASS Pool stable at 180 seconds
+sample: allocated=474482829 batches=19 drawCalls=19
+PASS Pool stable at 210 seconds
+sample: allocated=468535283 batches=19 drawCalls=19
+PASS Pool stable at 240 seconds
+sample: allocated=472769631 batches=19 drawCalls=19
+PASS Pool stable at 270 seconds
+sample: allocated=476646218 batches=20 drawCalls=20
+PASS Pool stable at 300 seconds
+sample: allocated=474557669 batches=21 drawCalls=21
