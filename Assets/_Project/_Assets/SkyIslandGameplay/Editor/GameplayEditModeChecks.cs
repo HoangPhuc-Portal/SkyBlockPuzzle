@@ -32,7 +32,7 @@ public static class GameplayEditModeChecks
         var scene = board.gameObject.scene;
         var cells = board.GetComponentsInChildren<GridCell>(true);
         var targets = cells.Select(c => c.transform).ToList();
-        foreach (string name in new[] { "Background", "BoardPanelView", "BoardRegion", "TrayPanel", "ReferenceStoneFrame", "BestPlate", "ScorePlate", "Settings", "Hint" })
+        foreach (string name in new[] { "Background", "BoardPanelView", "BoardRegion", "TrayPanel", "ReferenceStoneFrame", "BestPlate", "ScorePlate", "Settings" })
         {
             var go = GameObject.Find(name); if (go != null) targets.Add(go.transform);
         }

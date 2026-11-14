@@ -1,0 +1,388 @@
+# Bổ sung kiểm kê bằng Unity MCP — 14/11/2026
+
+Kết quả này bổ sung/thay thế giới hạn AssetDatabase trong báo cáo 01–05. Các báo cáo cũ là baseline static; không coi số liệu cũ là kết luận cuối nếu khác với phần bổ sung này.
+
+## Số liệu xác minh
+
+- GetDependencies(path,false) cho 687 file asset Unity nhận diện; đã dựng reverse dependency.
+- FindAssets(t:Texture) + GUIDToAssetPath + LoadAllAssetsAtPath: 353 đường dẫn, 719 Sprite, 353 Texture objects.
+- 350 file ảnh nguồn trước đó, phân loại sau bổ sung dependency: {'C': 161, 'A': 160, 'B': 29}.
+- 0 ảnh được nâng nhóm do phát hiện thêm dependency Unity.
+- 161 ảnh chưa thấy reference: 62.91 MiB nguồn; chưa đủ điều kiện xóa.
+- Active scene Assets/Scenes/GamePlay.unity; Edit Mode, dirty=False; Missing Script=0; 270 reference Sprite/Texture trong component được kiểm tra trực tiếp.
+
+## Texture ngoài danh sách file ảnh nguồn
+
+- `Assets/TextMesh Pro/Fonts/LiberationSans.ttf`
+- `Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset`
+- `Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset`
+
+## Thay đổi phân loại
+
+Không có.
+
+## Dependency Unity cho từng nguồn ảnh
+
+- `Assets/_Project/Animations/dragon_fly_spritesheet.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Animations/thac_nuoc_transparent.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Animations/waterfall_sheet_transparent.png` — A; inbound: Assets/_Project/Animations/Warter_2.anim
+- `Assets/_Project/Animations/waterfall_spritesheet.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Background.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/BackgroundSoft.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Black.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Black_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Black_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Black_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/BlockBlast_Art_SpriteSheet.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Blue.png` — A; inbound: Assets/_Project/_Assets/UI/Gameplay.spriteatlas; Assets/_Project/Prefabs/Shapes/BlockCell2D.prefab
+- `Assets/_Project/_Assets/Blue_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Blue_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Blue_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Button_Settings_Blue.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/cell.png` — A; inbound: Assets/_Project/Prefabs/Shapes/Square.prefab
+- `Assets/_Project/_Assets/cell_empty.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/cell_invalid.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/CrownIcon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Cyan.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Cyan_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Cyan_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Cyan_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/GemCrest.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Green.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Green_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Green_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Green_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/HUD_Banner.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Orange.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Orange_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Orange_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Orange_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Pink.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Pink_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Pink_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Pink_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Prop_Daisy.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Prop_Lantern.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Purple.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Purple_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Purple_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Purple_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Red.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Red_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Red_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Red_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/ScorePlate.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SettingsIcon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SquareParticle.png` — A; inbound: Assets/_Project/Environment/Prefabs/ComboEnvironment.prefab; Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/StoneFrame.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/TrayFrame.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/TraySlot.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/TrophyIcon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI_game_nen_trong_suot.png` — A; inbound: Assets/_Project/ScriptableObjects/BlockSpriteSet.asset; Assets/_Project/ScriptableObjects/BubblePopConfig.asset; Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_32.prefab; Assets/_Project/_Assets/UI/Gameplay.spriteatlas; Assets/_Project/Prefabs/UI/GameplayScreen.prefab
+- `Assets/_Project/_Assets/White.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/White_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/White_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/White_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Yellow.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Yellow_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Yellow_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/Yellow_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameover/button.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameover/frame.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameover/giao dien gmaeover .png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameover/icon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameplay/BestPlate.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/Prefabs/UI/BlockTileUI.prefab; Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayPiece.prefab; Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_27.prefab; Assets/_Project/Prefabs/UI/DraggableShape.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/BlockCoral.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_29.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/BlockGold.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_28.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/BlockGreen.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_30.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/BlockPurple.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_31.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/ScriptableObjects/UITheme.asset; Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayCell.prefab; Assets/_Project/Prefabs/Shapes/GridCell.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/ScriptableObjects/UITheme.asset; Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayCell.prefab; Assets/Scenes/GamePlay.unity; Assets/_Project/Prefabs/Shapes/GridCell.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/ScriptableObjects/UITheme.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_6.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_0.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_0.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_2.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_6.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_5.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_6.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_0.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_2.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_3.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_1.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_4.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_4.asset; Assets/Scenes/GamePlay.unity; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_5.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_1.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_6.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_0.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_3.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_6.asset; Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_0.asset
+- `Assets/_Project/_Assets/SkyIslandGameplay/BoardTraySteps.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/_Project/Prefabs/Flower/ButtercupPatch.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayCell.prefab; Assets/_Project/_Assets/UI/Gameplay.spriteatlas; Assets/_Project/Prefabs/Shapes/GridCell.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/CloudBank.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameplay/CloudCorner.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameplay/CloudCumulus.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameplay/CloudWisps.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png` — A; inbound: Assets/_Project/Prefabs/Flower/DaisyBorder.prefab; Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/Dragon.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/DragonPerch.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/gameplay.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameplay/GrassTuft.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandGameplay/IslandBackground.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/Panel.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/ScriptableObjects/UITheme.asset; Assets/_Project/_Assets/SkyIslandMainMenu/Prefabs/MenuSettingsPopup.prefab; Assets/Scenes/GamePlay.unity; Assets/_Project/Prefabs/UI/GameplayScreen.prefab; Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/PieceTray.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/_Project/Prefabs/Flower/PinkPurpleFlowers.prefab
+- `Assets/_Project/_Assets/SkyIslandGameplay/ScorePlate.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/Settings.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandGameplay/SquareParticle.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/ScriptableObjects/UITheme.asset; Assets/Scenes/GamePlay.unity; Assets/_Project/Prefabs/UI/GameplayScreen.prefab; Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/SkyIslandLoading/loading_title_gold.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandLoading/progress_fill_gold.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandLoading/progress_track_empty.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png` — A; inbound: Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonBlink.anim
+- `Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png` — A; inbound: Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonIdle.anim; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Play_Reaction.png` — A; inbound: Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonPlayReaction.anim
+- `Assets/_Project/_Assets/SkyIslandMainMenu/Explorer.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandMainMenu/MenuDragon.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandMainMenu/MenuIsland.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandMainMenu/menu_fix.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandMainMenu/PlayButton.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandMainMenu/SettingsButton.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandMainMenu/TitleLogo.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/Bộ giao diện Sky Block Puzzle 3D.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/Bộ giao diện game xếp khối .png` — A; inbound: Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/sprite/setting.png` — A; inbound: Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/sprite/sky_block_sheet_transparent.png` — A; inbound: Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/_Menu/background.jpeg` — A; inbound: Assets/Scenes/MainMenu.unity; Assets/_Project/Environment/Backups/MainMenu_BeforeTask01.unity
+- `Assets/_Project/_Assets/_Menu/Menu chính Sky Block Puzzle bay bổng.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/_Menu/Menu.png` — A; inbound: Assets/_Project/Environment/Backups/MainMenu_BeforeTask01.unity
+- `Assets/_Project/_Assets/UI/AntigravityGen/BackgroundSoft.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block0Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block0Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block0Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block1Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block1Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block1Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block2Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block2Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block2Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block3Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block3Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block3Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block4Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block4Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block4Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block5Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block5Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block5Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block6Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block6Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block6Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block7Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block7Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Block7Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/BlockBlast_Art_SpriteSheet.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/BlockWhite.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/CellBeveled.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/CrownIcon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/Panel.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/SettingsIcon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/SquareParticle.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/StoneFrame.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/TraySlot.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/TrophyIcon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_27_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_27_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_27_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_28_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_28_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_28_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_29_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_29_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_29_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_30_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_30_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_30_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_31_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_31_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_31_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_32_Disabled.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_32_Highlighted.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_32_Normal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/BackgroundSoft.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/UI/Generated/Block0Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block0Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block0Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block1Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block1Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block1Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block2Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block2Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block2Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block3Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block3Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block3Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block4Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block4Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block4Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block5Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block5Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block5Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block6Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block6Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block6Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block7Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block7Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/Block7Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/BlockBlast_Art_SpriteSheet.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/BlockWhite.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/_Project/Prefabs/UI/GameplayScreen.prefab; Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/UI/Generated/CellBeveled.png` — A; inbound: Assets/_Project/_Assets/UI/Gameplay.spriteatlas
+- `Assets/_Project/_Assets/UI/Generated/CrownIcon.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/SettingsIcon.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/UI/Generated/StoneFrame.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/_Project/Prefabs/UI/GameplayScreen.prefab; Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/UI/Generated/TrophyIcon.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_27_Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_27_Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_27_Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_28_Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_28_Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_28_Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_29_Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_29_Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_29_Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_30_Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_30_Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_30_Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_31_Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_31_Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_31_Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_32_Disabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_32_Highlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_32_Normal.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/ReferenceArt/BackgroundCliffs.png` — A; inbound: Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockBlue.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockBlueDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockBlueHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockCyan.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockCyanDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockCyanHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockGreen.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockGreenDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockGreenHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockOrange.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockOrangeDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockOrangeHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockPink.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockPinkDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockPinkHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockPurple.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockPurpleDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockPurpleHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockRed.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockRedDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockRedHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockWhiteDisabled.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockWhiteHighlighted.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockYellow.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockYellowDisabled.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BlockYellowHighlighted.png` — A; inbound: Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BoardCrest.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset; Assets/_Project/ScriptableObjects/UITheme.asset
+- `Assets/_Project/_Assets/UI/ReferenceArt/BoardStone.png` — A; inbound: Assets/_Project/Prefabs/UI/GameplayScreen.prefab
+- `Assets/_Project/_Assets/UI/ReferenceArt/CellBlue.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/UI/ReferenceArt/Crown.png` — A; inbound: Assets/_Project/Prefabs/UI/GameplayScreen.prefab
+- `Assets/_Project/_Assets/UI/ReferenceArt/HUDWood.png` — A; inbound: Assets/_Project/Prefabs/UI/GameplayScreen.prefab
+- `Assets/_Project/_Assets/UI/ReferenceArt/SettingsButton.png` — A; inbound: Assets/_Project/Prefabs/UI/GameplayScreen.prefab
+- `Assets/_Project/_Assets/UI/ReferenceArt/TrayWood.png` — A; inbound: Assets/_Project/Prefabs/UI/GameplayScreen.prefab
+- `Assets/_Project/_Assets/sprite/blockblast_assets/background_sky_fantasy.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/block_blue_1x1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/block_green_1x1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/block_purple_1x1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/block_red_1x1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/block_yellow_1x1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/board_base.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/board_frame.png` — A; inbound: Assets/_Project/Prefabs/UI/GameplayScreen.prefab; Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity
+- `Assets/_Project/_Assets/sprite/blockblast_assets/fantasy_lamp_left.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/fantasy_lamp_right.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/piece_slot_empty.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/blockblast_assets/piece_tray_background.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/spriteBlocks/board-removebg-preview.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/spriteBlocks/Bảng ý tưởng giao diện game xếp khối 3D 1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/spriteBlocks/Bảng ý tưởng giao diện game xếp khối 3D.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/spriteBlocks/Bộ tài sản giao diện game puzzle 1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/spriteBlocks/gpt-image-2-724bd9f2a28d0819f15fdd865a7a05c7 1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/sprite/spriteBlocks/gpt-image-2-e3a3c8b32d75b6b5be1ba0bbce36c025 1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/01_SettingsPanel/settings_panel_empty.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/01_SettingsPanel/settings_panel_settings.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_home.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_home_with_icon.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_navigation.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_replay.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_replay_with_icon.png` — A; inbound: Assets/Scenes/GamePlay.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_round_blue.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_yellow_close.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_yellow_close_labeled.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/decoration_crystal_gold.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/frame.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/icon.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/slider.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_crystal.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_home.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_music.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_restart.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_settings_gear.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_sound.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_vibration.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_off.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_on.png` — A; inbound: Assets/Scenes/GamePlay.unity; Assets/Scenes/MainMenu.unity
+- `Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/buttons_sheet_transparent.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/icons_sheet_transparent.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/panel_transparent.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/sliders_toggles_sheet_transparent.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png` — A; inbound: Assets/Scenes/MainMenu.unity
+- `Assets/_Project/Materials/Textures/BlueBlock1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/BlueBlock2.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/BrickBlock1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/BrickBlock2.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/Checkpoint.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/Cylinder.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/Fan.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/Flipboard.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/grass03.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/GreenCube1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/GreenCube2.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/Lever.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/MovingBlock.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonBrick1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonBrick2.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonWork1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonWork2.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonWork3.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonWork4.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonWork5.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/OctagonWork6.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/SpeedBlock.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/Star.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/Wood.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/WorkBlock1.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/WorkBlock2.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/WorkBlock3.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/WorkBlock4.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/WorkBlock5.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Materials/Textures/WorkBlock6.png` — C; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/_Project/Environment/Art/CloudLeafAtlas.png` — A; inbound: Assets/_Project/_Assets/SkyIslandGameplay/Configs/ReferenceEnvironment.asset; Assets/_Project/Environment/Configs/MainMenuEnvironment.asset; Assets/Scenes/MainMenu.unity; Assets/_Project/Environment/Configs/GamePlayEnvironment.asset
+- `Assets/_Project/Art/AppIcon/SkyBlockPuzzle-Dragon-Icon-v1.png` — A; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/TutorialInfo/Icons/URP.png` — A; inbound: Assets/Readme.asset
+- `Assets/TextMesh Pro/Sprites/EmojiOne.png` — A; inbound: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+- `Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/1024x768.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/1024x768.prefab; Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Interstitials/1024x768.prefab; Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/1024x768.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/300x250.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/MEDIUM_RECTANGLE.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x100.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LARGE_BANNER.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x480.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x50.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/468x60.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/FULL_BANNER.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/480x320.png` — B; inbound: không tìm thấy bằng GetDependencies; vẫn xét atlas/code ở báo cáo 01
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/728x90.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LEADERBOARD.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/768x1024.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/768x1024.prefab; Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/768x1024.prefab; Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Interstitials/768x1024.prefab
+- `Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/AdInspectorHome.png` — A; inbound: Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdInspector/768x1024.prefab
+
+## Phạm vi và giới hạn còn lại
+
+Không tạo script/tool Editor, không sửa scene/prefab/importer. C# kiểm kê chạy trong bộ nhớ bằng execute_code. Không mở/đóng scene, không bấm Play để tránh side effect Save/Ads/PlayerPrefs của game. Chưa test runtime MainMenu→Loading→Gameplay, dynamic loader, quảng cáo và toàn animation. Việc không có static/API dependency vẫn không chứng minh an toàn xóa. Snapshot active=true không đảm bảo hiển thị: còn camera/canvas/culling/alpha. Missing Script=0 chỉ cho scene đang mở, không phải mọi prefab/scene. Dữ liệu JSON lưu đầy đủ fileID, type, rect/pivot/border/PPU và graph để review.
+
+## Tiếp theo
+
+Giữ nguyên mọi nhóm A/B; review nhóm C và art nguồn với chủ dự án. Không xóa gì cho tới khi có phê duyệt rõ ràng. Runtime smoke test là bước còn lại trước đợt xóa đầu tiên.
+
+
+## Cập nhật Play Mode
+
+Đã chạy kiểm kê runtime; xem [11_PLAYMODE_VERIFICATION_REPORT.md](11_PLAYMODE_VERIFICATION_REPORT.md). Ghi nhận 20 Sprite FrameSlices .asset ngoài danh sách file ảnh nguồn; giữ nguyên. Không có nhóm C được phát hiện thêm trong phạm vi thử. Có cảnh báo Animator.GotoState cần điều tra. Chưa duyệt xóa asset.

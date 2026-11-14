@@ -72,7 +72,6 @@ public static class DifficultyPlayChecks
         gm.ConfirmGameOver();yield return 1f;int high=gm.HighScore;over.Replay();yield return .3f;
         Check(gm.CurrentScore==0&&!gm.IsInputLocked&&gm.RunSequence==run+1&&tray.DifficultyState.BestScoreAtRunStart==high&&tray.DifficultyState.Placements==0&&tray.DifficultyState.RecentCount==0,"Replay retained old DDA");
         Check(tray.DifficultyState.Index==0&&tray.LastSelection.decision.weights.z==0,"Replay not Starter");
-        var hints=UnityEngine.Object.FindFirstObjectByType<HintController>();Check(hints.FindHint(out var hintPiece,out var pos)&&hintPiece!=null,"Hint regression");
         ScreenCapture.CaptureScreenshot("Captures/dda-gameplay.png");yield return .3f;
     }
     static void Finish(string error)
@@ -80,7 +79,7 @@ public static class DifficultyPlayChecks
         EditorApplication.update-=Tick;(routine as IDisposable)?.Dispose();routine=null;
         if(hadRecord)PlayerPrefs.SetInt(Key,record);else PlayerPrefs.DeleteKey(Key);PlayerPrefs.Save();
         Application.runInBackground=background;UnityEngine.Random.state=random;
-        string result=error==null?"PASS: 12 actual DDA hands / 36 drag placements; selected rotations retained; simulated occupancy and line clears match real board; score exceeds initial record while snapshot stays 100; history capped at 6; modal time excluded and existing hand unchanged; Continue preserves run and record snapshot, Replay resets all run statistics and Starter weights; Hint valid. PlayerPrefs restored.":"FAIL after "+placed+" placements: "+error;
+        string result=error==null?"PASS: 12 actual DDA hands / 36 drag placements; selected rotations retained; simulated occupancy and line clears match real board; score exceeds initial record while snapshot stays 100; history capped at 6; modal time excluded and existing hand unchanged; Continue preserves run and record snapshot, Replay resets all run statistics and Starter weights; PlayerPrefs restored.":"FAIL after "+placed+" placements: "+error;
         Directory.CreateDirectory("Captures");File.WriteAllText("Captures/dda-play-checks.txt",result);if(error==null)Debug.Log(result);else Debug.LogError(result);
         if(EditorApplication.isPlaying)SceneManager.LoadScene("MainMenu");
     }

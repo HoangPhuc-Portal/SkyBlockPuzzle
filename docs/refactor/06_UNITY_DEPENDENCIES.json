@@ -1,0 +1,3738 @@
+[
+  {
+    "path": "Assets/_Project/Prefabs/Flower/DaisyBorder.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Button_Settings_Blue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Green_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_vibration.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Settings/SampleSceneProfile.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/MotionBlur.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Bloom.cs",
+      "Packages/com.unity.render-pipelines.core/Runtime/Volume/VolumeProfile.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Tonemapping.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Vignette.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Shape/ShapeController.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/SettingsButton.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/1024x768.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/1024x768.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockGold.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockGreen.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockPurple.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/SquareParticle.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BoardCrest.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockCoral.png",
+      "Assets/_Project/Scripts/UI/UITheme.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_32_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/SquareParticle.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Background.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/buttons_sheet_transparent.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/TrayWood.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/spriteBlocks/gpt-image-2-e3a3c8b32d75b6b5be1ba0bbce36c025 1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_31_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/board_frame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/BackgroundView.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/TrayController.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LEADERBOARD.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/728x90.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/menu_fix.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/UITheme.asset",
+    "deps": [
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockPurpleDisabled.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockPurpleHighlighted.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockRedDisabled.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockGreen.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockBlue.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockBlueDisabled.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockPinkDisabled.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockYellowHighlighted.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockOrangeHighlighted.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockRed.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockOrangeDisabled.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockYellow.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockCyanHighlighted.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockPink.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockRedHighlighted.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/SquareParticle.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockCyan.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockPurple.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockPinkHighlighted.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BoardCrest.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockOrange.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockYellowDisabled.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockGreenHighlighted.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockGreenDisabled.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockCyanDisabled.png",
+      "Assets/_Project/Scripts/UI/UITheme.cs",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BlockBlueHighlighted.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/BrickBlock1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_2.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/TraySlot.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/CrownIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Core/Managers/GameEvents.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Editor/GameplayReferenceChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/FULL_BANNER.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/468x60.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/BlockBlast_Art_SpriteSheet.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonBrick2.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block4Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Cyan_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Prefabs/MenuSettingsPopup.prefab",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs",
+      "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs",
+      "Assets/_Project/Scripts/UI/ButtonFeedback.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Assets/_Project/Scripts/UI/ButtonAudio.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Toggle.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Difficulty/HandSelector.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdInspector/768x1024.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/AdInspectorHome.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Text.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/Flipboard.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/grass03.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block1Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/waterfall_spritesheet.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/WorkBlock3.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Tests/Editor/GameplayUITests.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/CrownIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/sky_block_sheet_transparent.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockCyanHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Environment/IslandEnvironmentSettings.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/Haptics.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_31_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Pink_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/TrophyIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Animation/SpriteFrameAnimator.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block0Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Red_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/UITheme.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockBlueDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Readme.asset",
+    "deps": [
+      "Assets/TutorialInfo/Scripts/Readme.cs",
+      "Assets/TutorialInfo/Icons/URP.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/ExtendedSky.mat",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Shaders/MenuSky.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Orange.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Blue_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/background_sky_fantasy.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Common.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_31_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block6Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/block_yellow_1x1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block5Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Green.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/CloudBank.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_6.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/GoogleMobileAdsSKAdNetworkItems.xml",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_0.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/CrownIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/BlockBlast_Art_SpriteSheet.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/PListProcessor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Ump.iOS.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/EditorPathUtils.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/DifficultyChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block4Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block0Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/WorkBlock2.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/BlueBlock2.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/CellBeveled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/sliders_toggles_sheet_transparent.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Orange_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph",
+    "deps": [
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphMetadata.cs",
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphImporter.cs",
+      "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/UniversalMetadata.cs",
+      "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/cell_invalid.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.pdb",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.VersionHandlerImpl.pdb",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.prefab",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/LayoutElement.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Text.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Pink_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/LICENSE",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/ShapeDataEditor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/RewardedReplayChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonWork4.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Pink_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_0.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Audio/drag_block.mp3",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandLoading/progress_track_empty.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TutorialInfo/Icons/URP.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/waterfall_sheet_transparent_0.controller",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameover/icon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/MenuDragon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_2.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockPink.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Difficulty/DifficultyState.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/ADAPTIVE.prefab",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Text.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_round_blue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/BANNER.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x50.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BoardCrest.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/LargeCorner_5.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/SettingsIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/HUD_Banner.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/AdInspectorHome.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/White_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameover/button.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PieceTray.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameover/giao dien gmaeover .png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Settings/PC_Renderer.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_1.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/HDRDebugView.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_6.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_0.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/ScreenSpaceAmbientOcclusion.cs",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_3.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/DebugReplacement.shader",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalRendererData.cs",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_5.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_4.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/ScreenSpaceAmbientOcclusion.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_2.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/Star.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Purple_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.PackageManagerResolver.pdb",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Shaders/MenuShine.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Shapes/Block_1x1.prefab",
+    "deps": [
+      "Assets/_Project/_Assets/sprite/spriteBlocks/Block_1x1.fbx"
+    ]
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/CHANGELOG.md",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/StoneFrame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Configs/SkyExtension.mat",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/GameplaySkyExtension.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_restart.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/block_red_1x1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/LogoShine.mat",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Shaders/MenuShine.shader"
+    ]
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.JarResolver.pdb",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/AdMobChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Interstitials/1024x768.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/1024x768.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Panel.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block7Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block6Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/piece_slot_empty.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block1Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.IOSResolver.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/Wood.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/gma_settings_editor_localization_data.json",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block4Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_yellow_close.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_6.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockBlue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph",
+    "deps": [
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphMetadata.cs",
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphImporter.cs",
+      "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/UniversalMetadata.cs",
+      "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Difficulty/BoardOpportunity.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockPinkDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_29_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block4Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc",
+    "deps": []
+  },
+  {
+    "path": "Assets/Plugins/Android/proguard-user.txt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockBlueHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/480x320.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/GameOverChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/gameplay.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Fonts/LiberationSans.ttf",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/BoardView.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Materials/ComboEnergy.mat",
+    "deps": [
+      "Assets/_Project/Environment/Materials/ComboEnergy.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_crystal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Editor/GameplayArtInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Line_5.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockRed.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/DragonPerch.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block0Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/RewardedGameplayInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Green_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Editor/GameplayReferenceLayout.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/Warter_2.anim",
+    "deps": [
+      "Assets/_Project/Animations/waterfall_sheet_transparent.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/block_green_1x1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/MenuIsland.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Effects/BubblePopConfig.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Prefabs/ComboEnvironment.prefab",
+    "deps": [
+      "Assets/_Project/Scripts/Environment/ComboEnvironment.cs",
+      "Assets/_Project/Environment/Materials/ComboEnergy.mat",
+      "Assets/_Project/Environment/Configs/ComboEnvironment.asset",
+      "Assets/_Project/_Assets/SquareParticle.png"
+    ]
+  },
+  {
+    "path": "Assets/Plugins/iOS/unity-plugin-library.xcframework",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/BlueBlock1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/468x60.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Square_2x2.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/BlockBlast_Art_SpriteSheet.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Scenes/TestQC.unity",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs",
+      "Assets/_Project/Scripts/AdManager/AdsManager.cs",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/DefaultInputActions.inputactions",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_5.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Green_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_27_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Audio/xoa_hang_cot.mp3",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/DifficultyPlayChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/icon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block2Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block1Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_30_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.IOSResolver.pdb",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset",
+    "deps": [
+      "Assets/TextMesh Pro/Sprites/EmojiOne.png",
+      "Packages/com.unity.ugui/Runtime/TMP/TMP_SpriteAsset.cs",
+      "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader"
+    ]
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.JarResolver.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/Plugins/Android/gradleTemplate.properties",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_6.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.VersionHandlerImpl.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_0.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/BlockSpriteSet.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/BlockSpriteSet.cs",
+      "Assets/_Project/_Assets/UI_game_nen_trong_suot.png"
+    ]
+  },
+  {
+    "path": "Assets/InputSystem_Actions.inputactions",
+    "deps": [
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionAsset.cs",
+      "Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporter.cs",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionReference.cs"
+    ]
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/SMART_BANNER.prefab",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_28_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Configs/ReferenceEnvironment.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Environment/IslandEnvironmentSettings.cs",
+      "Assets/_Project/Environment/Materials/IslandWater.mat",
+      "Assets/_Project/Environment/Art/CloudLeafAtlas.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Settings.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Configs/MainMenuEnvironment.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Environment/IslandEnvironmentSettings.cs",
+      "Assets/_Project/Environment/Materials/IslandWater.mat",
+      "Assets/_Project/Environment/Art/CloudLeafAtlas.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_on.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block3Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/CENTER.prefab",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/block_blue_1x1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/White.mat",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Editor/AssetVersion.cs",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/GreenCube2.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/UI/BlockTileUI.prefab",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_27_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BackgroundCliffs.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Settings/Mobile_Renderer.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/HDRDebugView.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/DebugReplacement.shader",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalRendererData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/SettingsIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/CloudCumulus.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_home.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/ShapeLibraryRebuild.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/ScoringChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/TrayFrame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/HUDWood.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block1Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/IslandEnvironmentInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Data/ShapeData.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block2Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/WorkBlock6.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/AudioIntegrationInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Grid/GridBoard.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_30_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_27_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BestPlate.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block7Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/cell_empty.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Blue_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block7Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/CHANGELOG.md",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockGreenDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Art/AppIcon/SkyBlockPuzzle-Dragon-Icon-v1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/RewardedGameplay.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/BubblePopRegressionChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Line_4.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonIdle.anim",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Grid/BoardModel.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/UIArtVariants.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Core.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_29_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/Lever.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayCell.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/Scripts/Grid/GridCell.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset",
+      "Assets/_Project/Scripts/UI/CellView.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_home_with_icon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Environment/ComboEnvironmentSettings.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/GrassTuft.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/SpeedBlock.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/TraySlot.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Tests/Editor/GameOverTests.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/block_purple_1x1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Plugins/iOS/NativeTemplates/GADTMediumTemplateView.xib",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_2.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Resources/AdsConfiguration.asset",
+    "deps": [
+      "Assets/_Project/Scripts/AdManager/AdsConfiguration.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_replay.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Cyan_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/AudioIntegrationChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/White_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/TitleLogo.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameover/frame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_3.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/GoogleMobileAds/link.xml",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_1.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block5Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_settings_gear.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Tests/Editor/BlockBlast.Editor.Tests.asmdef",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph",
+    "deps": [
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphMetadata.cs",
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphImporter.cs",
+      "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuSettings.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/waterfall_sheet_transparent_1.controller",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Prefabs/MainMenuEnvironment.prefab",
+    "deps": [
+      "Assets/_Project/Environment/Configs/MainMenuEnvironment.asset",
+      "Assets/_Project/Scripts/Environment/IslandEnvironment.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/spriteBlocks/Bộ tài sản giao diện game puzzle 1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockRedHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block5Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/LARGE_BANNER.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x100.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/BlockWhite.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block3Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/CellView.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_home.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/GameHUD.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block0Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/BlockWhite.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/cell.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/ExplorerMenu.controller",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/ExplorerDepart.anim",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/ExplorerIdle.anim"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonPlayReaction.anim",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Play_Reaction.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_32_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x480.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Black.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Difficulty/HandViability.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/waterfall_sheet_transparent_1 1.controller",
+    "deps": [
+      "Assets/_Project/Animations/Warter_2.anim"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/fantasy_lamp_left.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI_game_nen_trong_suot.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/setting.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/01_SettingsPanel/settings_panel_empty.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/SettingsPanel.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockYellowHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Prop_Lantern.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Yellow.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/1.2.188/Google.PackageManagerResolver.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockGreen.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/WarterFall.anim",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/PieceView.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonBlink.anim",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/spriteBlocks/Block_1x1.fbx",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockOrange.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/BubblePopConfig.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Effects/BubblePopConfig.cs",
+      "Assets/_Project/_Assets/UI_game_nen_trong_suot.png",
+      "Assets/_Project/Prefabs/Effects/BubblePopEffect.prefab"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_30_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat",
+    "deps": [
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/fantasy_lamp_right.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/EditorLocalizationData.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/White.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/GoogleUmpDependencies.xml",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Shape/BlockTileUI.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonBrick1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_28.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockGold.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/Bộ giao diện Sky Block Puzzle 3D.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Data/ShapeRuntimeData.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_29_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Black_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/Checkpoint.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockPinkHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_1.png",
+      "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VoxelizeScene.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LutBuilderHdr.shader",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/Utilities/CopyBuffer.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree7.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/StencilDitherMaskSeed.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_0.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/OcclusionCullingDebug.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CopyDepth.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/HDRDebugView.shader",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceTransformUpdateKernels.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/ScalingSetup.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_3.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/Sampling.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium03.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders/VrsVisualization.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph",
+      "Packages/com.unity.render-pipelines.universal/Shaders/XR/XROcclusionMesh.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin02.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga",
+      "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_17.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_24.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_27.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlitColorAndDepth.shader",
+      "Packages/com.unity.render-pipelines.universal/Editor/Volume/DefaultVolumeProfile.asset",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LensFlareScreenSpace.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/UberPost.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Sprite.shader",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/bit_histogram.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_2.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large02.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_15.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_30.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_21.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_4.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_16.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeNumbersDisplayTex.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium01.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalRenderPipelineGlobalSettings.cs",
+      "Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph",
+      "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Projected.shader",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferUploadKernels.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/GeometryPool/GeometryPoolKernels.compute",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_22.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/ClusterDeferred.shader",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/DebugOcclusionTest.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_6.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/DebugFont.tga",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/DebugReplacement.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_8.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat",
+      "Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders/VrsTexture.compute",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Decal/DBuffer/DBufferClear.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/ScreenSpaceAmbientOcclusion.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_4.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_28.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_13.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/OnTileUberPost.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_18.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_29.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/CameraMotionVectors.shader",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_14.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferCopyKernels.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/PaniniProjection.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrass.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/Bloom.shader",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Mesh2D-Lit-Default.mat",
+      "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/GaussianDepthOfField.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/XR/XRMirrorView.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_1.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_3.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/block_reduce_part.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeFragmentationDebug.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_2.png",
+      "Assets/Settings/DefaultVolumeProfile.asset",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LutBuilderLdr.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_23.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium02.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/BokehDepthOfField.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/XR/XRMotionVector.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Geometry.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_6.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree9_URP.shadergraph",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/build_hlbvh.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/StopNaN.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin01.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.compute",
+      "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeSubdivide.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeOffsetDebug.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/StencilDeferred.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/TemporalAA.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainDetailLit.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_26.png",
+      "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeCellDilation.compute",
+      "Packages/com.unity.render-pipelines.core/Shaders/CoreCopy.shader",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_9.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeSamplingDebug.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlit.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_5.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/SMAA/SearchTex.tga",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/CopyPositions.compute",
+      "Packages/com.unity.render-pipelines.universal/Textures/BayerMatrix.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_19.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/OccluderDepthPyramidKernels.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceWindDataUpdateKernels.compute",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium04.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrassBillboard.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LensFlareDataDriven.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_7.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large01.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/STP/StpSetup.compute",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_0.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeDebug.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Sprite.shader",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium05.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat",
+      "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium06.png",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/EdgeAdaptiveSpatialUpsampling.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/CameraMotionBlur.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_25.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_5.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceOcclusionCullingKernels.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Geometry.shader",
+      "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/DebugOccluder.shader",
+      "Packages/com.unity.render-pipelines.core/Runtime/STP/StpPreTaa.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/scatter.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/STP/StpTaa.compute",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/block_scan.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.shader",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_11.png",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_10.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/restructure_bvh.compute",
+      "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/FinalPost.shader",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Utils/BlitHDROverlay.shader",
+      "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadData.compute",
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_20.png",
+      "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.compute"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Effects/BubblePopEffectPlayer.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/GameplaySkyExtension.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Red_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/BackgroundSoft.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockOrangeDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Audio/drop_block.mp3",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_28_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Square_3x3.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_29_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_30_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Editor/GameplayLayoutAuthoring.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_31_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/SettingsNavigationChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/ButtonAudio.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockYellow.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonWork6.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Environment/IslandEnvironment.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Environment/ComboEnvironment.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/Plugins/Android/settingsTemplate.gradle",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockWhiteHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Yellow_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block3Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_30_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/spriteBlocks/Bảng ý tưởng giao diện game xếp khối 3D.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/BlockBlastRegressionChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Ump.Unity.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Audio/select_button.mp3",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/GameplayUIInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_4.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Materials/BrickBlock1.mat",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Editor/AssetVersion.cs",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_28_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Materials/ComboEnergy.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockGreen.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Configs/ComboEnvironment.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Environment/ComboEnvironmentSettings.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Animations/Warter_1.anim",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Ump.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettings.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_31_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/UIRegressionChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockCoral.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/IslandBackground.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/AdManager/AdsConfiguration.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Yellow_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_32.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/UI_game_nen_trong_suot.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block6Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/spriteBlocks/board-removebg-preview.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_31_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Orange_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Prop_Daisy.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/TrophyIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_4.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Line_3.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuDesignScale.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat",
+    "deps": [
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/BuildPreProcessor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/Bộ giao diện game xếp khối .png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Plugins/Android/mainTemplate.gradle",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/300x250.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Pink.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Scenes/GamePlay.unity",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs",
+      "Assets/_Project/_Assets/UI/Generated/BlockWhite.png",
+      "Assets/_Project/Scripts/Core/Managers/GameManager.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/LargeCorner_5.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_4.asset",
+      "Assets/_Project/_Assets/UI/Generated/StoneFrame.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/HorizontalLayoutGroup.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_sound.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/T_4.asset",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_off.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_0.asset",
+      "Assets/_Project/Prefabs/Audio/AudioManager.prefab",
+      "Assets/_Project/Scripts/UI/RewardedGameplay.cs",
+      "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs",
+      "Assets/_Project/Environment/Prefabs/GamePlayEnvironment.prefab",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Packages/com.unity.render-pipelines.core/Runtime/Volume/Volume.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/S_4.asset",
+      "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_vibration.png",
+      "Assets/_Project/Scripts/UI/GameOverController.cs",
+      "Assets/_Project/Resources/DifficultyConfig.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Dragon.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/Raycasters/PhysicsRaycaster.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_home_with_icon.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_2.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_5.asset",
+      "Assets/_Project/Scripts/UI/MockRewardedProvider.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/ScorePlate.png",
+      "Assets/_Project/Scripts/UI/BoardView.cs",
+      "Assets/_Project/Scripts/UI/TrayController.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/J_4.asset",
+      "Assets/_Project/Scripts/Grid/GridCell.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/PieceTray.png",
+      "Assets/_Project/Scripts/Shape/TrayManager.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png",
+      "Assets/_Project/ScriptableObjects/UITheme.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+      "Assets/_Project/Scripts/AdManager/AdMobRewardedProvider.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png",
+      "Assets/_Project/Environment/Materials/IslandWater.mat",
+      "Assets/_Project/_Assets/UI/Generated/SettingsIcon.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/ReferencePostProcessing.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/frame.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_0.asset",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_replay_with_icon.png",
+      "Assets/_Project/_Assets/SkyIslandGameover/button.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_0.asset",
+      "Assets/_Project/Scripts/UI/ButtonAudio.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Settings.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayCell.prefab",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/_Project/_Assets/SkyIslandGameover/frame.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuDesignScale.cs",
+      "Assets/_Project/Scripts/UI/BackgroundView.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/SmallCorner_3.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_2.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Rectangle_2x3.asset",
+      "Assets/_Project/Scripts/Grid/GridBoard.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_5.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_6.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_5.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_4.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Square_2x2.asset",
+      "Assets/_Project/Scripts/UI/ClearPresentation.cs",
+      "Assets/_Project/Scripts/Environment/ComboEnvironment.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_3.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_3.asset",
+      "Assets/_Project/Environment/Materials/ComboEnergy.mat",
+      "Assets/_Project/Scripts/UI/ButtonFeedback.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Single.asset",
+      "Assets/_Project/Environment/Configs/ComboEnvironment.asset",
+      "Assets/_Project/Scripts/UI/UIManager.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_0.asset",
+      "Assets/_Project/ScriptableObjects/BubblePopConfig.asset",
+      "Assets/_Project/Scripts/Mascot/DragonMascot.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_6.asset",
+      "Assets/_Project/Scripts/UI/GameHUD.cs",
+      "Assets/_Project/_Assets/SquareParticle.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/IslandBackground.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Toggle.cs",
+      "Assets/_Project/_Assets/UI/Generated/BackgroundSoft.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayPiece.prefab",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/L_4.asset",
+      "Assets/_Project/Scripts/Effects/BubblePopEffectPlayer.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png",
+      "Assets/_Project/Scripts/UI/SafeArea.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Z_4.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/LayoutElement.cs",
+      "Assets/_Project/Scripts/Core/StateMachine/GameStateManager.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_0.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_1.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/ReferenceEnvironment.asset",
+      "Assets/_Project/ScriptableObjects/BlockSpriteSet.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_2.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_6.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_6.asset",
+      "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_music.png",
+      "Assets/_Project/Scripts/UI/SettingsPanel.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Square_3x3.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/AspectRatioFitter.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_4.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_1.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_2.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_6.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_3.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BestPlate.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/DragonPerch.png",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/DefaultInputActions.inputactions",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardTraySteps.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/SkyExtension.mat",
+      "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_3.asset",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_on.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Core/Managers/ClearedCellInfo.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Effects/BubblePopEffect.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/PlayShine.mat",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Shaders/MenuShine.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block6Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_replay_with_icon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Gameplay.spriteatlas",
+    "deps": [
+      "Assets/_Project/_Assets/UI/Generated",
+      "Assets/_Project/_Assets/UI/Generated/CellBeveled.png",
+      "Assets/_Project/_Assets/UI_game_nen_trong_suot.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png",
+      "Assets/_Project/_Assets/Blue.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block4Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/ManifestProcessor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Z_4.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_32_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/TMP/TMP_StyleSheet.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_yellow_close_labeled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/White_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Resources/DifficultyConfig.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Difficulty/DifficultyConfig.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Editor/DragonSheetInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SquareParticle.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/EditorLocalization.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x100.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockGold.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/RewardedProvider.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/WorkBlock4.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block0Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/ScorePlate.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Rectangle_2x3.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block5Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Play_Reaction.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_30.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockGreen.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/WorkBlock1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds_version-11.5.0_manifest.txt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/thac_nuoc_transparent.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Core/Managers/GameManager.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_27_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/DragonMascotChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_27_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/320x50.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_29.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockCoral.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Flower/ButtercupPatch.prefab",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat"
+    ]
+  },
+  {
+    "path": "Assets/Plugins/iOS/NativeTemplates/GADTSmallTemplateView.xib",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/CellBeveled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Grid/GridCell.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockYellowDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Audio/gameOver.mp3",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/Crown.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/TrophyIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/768x1024.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/AdManager/RewardedRequest.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettingsEditor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/_Menu/background.jpeg",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandLoading/loading_title_gold.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockPurple.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Scenes/MainMenu.unity",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_sound.png",
+      "Assets/_Project/Prefabs/Audio/AudioManager.prefab",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_off.png",
+      "Assets/_Project/_Assets/SkyIslandLoading/progress_fill_gold.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/ExtendedSky.mat",
+      "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs",
+      "Assets/_Project/Scripts/UI/ButtonFeedback.cs",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/ExplorerMenu.controller",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuDragonAnimation.cs",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuSettings.cs",
+      "Assets/_Project/Environment/Prefabs/MainMenuEnvironment.prefab",
+      "Assets/_Project/Scripts/Mascot/DragonMascot.cs",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+      "Assets/_Project/Scripts/AdManager/AdPrivacyButton.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_vibration.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Toggle.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_yellow_close_labeled.png",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/IslandFlow.mat",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/MenuDragon.controller",
+      "Assets/_Project/_Assets/SkyIslandLoading/loading_title_gold.png",
+      "Assets/_Project/Scripts/UI/SafeArea.cs",
+      "Assets/_Project/_Assets/_Menu/background.jpeg",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/SettingsButton.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/MenuDragon.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/MenuIsland.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Explorer.png",
+      "Assets/_Project/_Assets/SkyIslandLoading/progress_track_empty.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/PlayShine.mat",
+      "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_music.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/LogoShine.mat",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/AspectRatioFitter.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Assets/_Project/Scripts/UI/ButtonAudio.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/frame.png",
+      "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs",
+      "Assets/_Project/Scripts/AdManager/AdsManager.cs",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/PlayButton.png",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/DefaultInputActions.inputactions",
+      "Assets/_Project/Resources/AdsConfiguration.asset",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/TitleLogo.png",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuPresentation.cs",
+      "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuDesignScale.cs",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png",
+      "Assets/_Project/Scripts/UI/PlaySceneLoader.cs",
+      "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_on.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Audio/AudioManager.prefab",
+    "deps": [
+      "Assets/_Project/Scripts/Core/Managers/AudioManager.cs",
+      "Assets/_Project/Audio/gameOver.mp3",
+      "Assets/_Project/Audio/xoa_hang_cot.mp3",
+      "Assets/_Project/Audio/drag_block.mp3",
+      "Assets/_Project/Audio/drop_block.mp3",
+      "Assets/_Project/Audio/select_button.mp3"
+    ]
+  },
+  {
+    "path": "Assets/Plugins/Android/googlemobileads-unity.aar",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph",
+    "deps": [
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphMetadata.cs",
+      "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphImporter.cs",
+      "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/BackgroundSoft.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Banners/MEDIUM_RECTANGLE.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/300x250.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/IslandEnvironmentChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TutorialInfo/Layout.wlt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/ComboEnvironmentChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/T_4.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Editor/ShapeLibraryPlayChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block2Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/Fan.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block5Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_31.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockPurple.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Editor/GameplayEditModeChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_28_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/01_SettingsPanel/settings_panel_settings.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block7Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandLoading/progress_fill_gold.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block3Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block6Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/README.md",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/Settings/PC_RPAsset.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs",
+      "Assets/Settings/PC_Renderer.asset",
+      "Assets/Settings/SampleSceneProfile.asset",
+      "Packages/com.unity.render-pipelines.universal/Textures/BayerMatrix.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/ExplorerIdle.anim",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/SafeArea.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/DifficultyInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/ReferenceGameplayInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Shaders/MenuIsland.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Dragon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/GameOverInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/Settings/DefaultVolumeProfile.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/LiftGammaGain.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/FilmGrain.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/SplitToning.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/MotionBlur.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/PaniniProjection.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ChromaticAberration.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ChannelMixer.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/WhiteBalance.cs",
+      "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumesOptions.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ShadowsMidtonesHighlights.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/DepthOfField.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorLookup.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Bloom.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Tonemapping.cs",
+      "Packages/com.unity.render-pipelines.core/Runtime/Volume/VolumeProfile.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorCurves.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/LensDistortion.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Vignette.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorAdjustments.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ScreenSpaceLensFlare.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/ButtonFeedback.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Prefabs/GameplayPiece.prefab",
+    "deps": [
+      "Assets/_Project/Scripts/UI/PieceView.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+      "Assets/_Project/Scripts/Shape/DraggableShape.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Assets/_Project/Prefabs/UI/BlockTileUI.prefab"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockOrangeHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Blue_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/GoogleMobileAds.Editor.asmdef",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_3.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Red.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/Ump/ConsentForm.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockRedDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/SettingsButton.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block7Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/waterfall_spritesheet_0.controller",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/AdManager/AdsManager.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/AdMobLifecycleChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_29_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Cyan_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.188_manifest.txt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/GreenCube1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/GameOverController.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Mat_Fill.mat",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Editor/AssetVersion.cs",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+    ]
+  },
+  {
+    "path": "Assets/Plugins/iOS/GADUAdNetworkExtras.h",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/ExplorerDepart.anim",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Cyan.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block0Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/GemCrest.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/spriteBlocks/gpt-image-2-724bd9f2a28d0819f15fdd865a7a05c7 1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block5Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Blocks/UI_game_nen_trong_suot_27.prefab",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat"
+    ]
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/1024x768.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/BrickBlock2.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Orange_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Animations/waterfall_sheet_transparent.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_30_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Shapes/Square.prefab",
+    "deps": [
+      "Assets/_Project/_Assets/cell.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/PlaySceneLoader.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_off.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/frame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Materials/IslandWater.mat",
+    "deps": [
+      "Assets/_Project/Environment/Materials/IslandWater.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Shape/DraggableShape.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block6Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/LineClearChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_32_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_music.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockCyanDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/1024x768.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/1024x768.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/CellBlue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block7Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Purple.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_27_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/Cylinder.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/SmallCorner_3.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Tests/Editor/BlockBlastRegressionTests.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Black_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/LICENSE",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_32_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TutorialInfo/Scripts/Readme.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/panel_transparent.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_28_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block2Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Editor/TrayFeedbackChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/UIManager.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/ScorePlate.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/WorkBlock5.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Explorer.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Shaders/MenuSky.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/_Menu/Menu.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/UI/GameplayScreen.prefab",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs",
+      "Assets/_Project/_Assets/UI/Generated/BlockWhite.png",
+      "Assets/_Project/Scripts/Core/Managers/GameManager.cs",
+      "Assets/_Project/Scripts/Grid/GridBoard.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/LargeCorner_5.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Rectangle_2x3.asset",
+      "Assets/_Project/_Assets/UI/Generated/StoneFrame.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Square_2x2.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/SmallCorner_3.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_5.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/HorizontalLayoutGroup.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_4.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/T_4.asset",
+      "Assets/_Project/Scripts/UI/ClearPresentation.cs",
+      "Assets/_Project/Scripts/UI/RewardedGameplay.cs",
+      "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs",
+      "Assets/_Project/Prefabs/UI/DraggableShape.prefab",
+      "Assets/_Project/Scripts/UI/ButtonFeedback.cs",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BoardStone.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Single.asset",
+      "Assets/_Project/Scripts/UI/UIManager.cs",
+      "Assets/_Project/ScriptableObjects/BubblePopConfig.asset",
+      "Assets/_Project/Scripts/UI/GameHUD.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/S_4.asset",
+      "Assets/_Project/_Assets/UI/ReferenceArt/TrayWood.png",
+      "Assets/_Project/Scripts/UI/GameOverController.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Toggle.cs",
+      "Assets/_Project/_Assets/UI/ReferenceArt/SettingsButton.png",
+      "Assets/_Project/Resources/DifficultyConfig.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/L_4.asset",
+      "Assets/_Project/Scripts/Effects/BubblePopEffectPlayer.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_2.asset",
+      "Assets/_Project/Scripts/UI/SafeArea.cs",
+      "Assets/_Project/Scripts/UI/MockRewardedProvider.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Z_4.asset",
+      "Assets/_Project/_Assets/sprite/blockblast_assets/board_frame.png",
+      "Assets/_Project/_Assets/UI/ReferenceArt/Crown.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_2.asset",
+      "Assets/_Project/Scripts/UI/BoardView.cs",
+      "Assets/_Project/ScriptableObjects/BlockSpriteSet.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/J_4.asset",
+      "Assets/_Project/Scripts/UI/TrayController.cs",
+      "Assets/_Project/Scripts/UI/SettingsPanel.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/AspectRatioFitter.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Square_3x3.asset",
+      "Assets/_Project/_Assets/UI_game_nen_trong_suot.png",
+      "Assets/_Project/Prefabs/Shapes/GridCell.prefab",
+      "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png",
+      "Assets/_Project/ScriptableObjects/UITheme.asset",
+      "Assets/_Project/Scripts/Shape/TrayManager.cs",
+      "Assets/_Project/_Assets/UI/ReferenceArt/HUDWood.png",
+      "Assets/_Project/Scripts/AdManager/AdMobRewardedProvider.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Assets/_Project/Scripts/UI/ButtonAudio.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_3.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+      "Assets/_Project/Materials/White.mat",
+      "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_3.asset",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/AdManager/AdMobRewardedProvider.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Configs/GamePlayEnvironment.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Environment/IslandEnvironmentSettings.cs",
+      "Assets/_Project/Environment/Materials/IslandWater.mat",
+      "Assets/_Project/Environment/Art/CloudLeafAtlas.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block4Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Red_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Materials/IslandFlow.mat",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Shaders/MenuIsland.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Purple_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block2Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_5.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuDragonAnimation.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/spriteBlocks/Bảng ý tưởng giao diện game xếp khối 3D 1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_32_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Utils.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AppOpen/768x1024.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/768x1024.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/Difficulty/DifficultyConfig.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/UI_game_nen_trong_suot_28_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BoardStone.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/MovingBlock.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Android.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block2Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/AdManager/AdPrivacyButton.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Configs/ReferencePostProcessing.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/MotionBlur.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Bloom.cs",
+      "Packages/com.unity.render-pipelines.core/Runtime/Volume/VolumeProfile.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Tonemapping.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Vignette.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Editor/ReferenceGameplayArt.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/Blue.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/StoneFrame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block1Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonWork1.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_1.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockCyan.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockPurpleDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/J_4.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockPurple.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/piece_tray_background.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/UI_game_nen_trong_suot_29_Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Shape/TrayManager.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Editor/BlockInteractionChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockGreenHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block3Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_6.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/decoration_crystal_gold.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Core/Pool/BubblePopEffectPool.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+    "deps": [
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "Packages/com.unity.ugui/Runtime/TMP/TMP_FontAsset.cs",
+      "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockWhiteDisabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonWork5.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/S_4.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/Generated/Block3Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonWork3.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Data/BlockSpriteSet.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/_Menu/Menu chính Sky Block Puzzle bay bổng.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Rewarded/768x1024.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/768x1024.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/L_4.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/Settings/Mobile_RPAsset.asset",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs",
+      "Assets/Settings/Mobile_Renderer.asset",
+      "Assets/Settings/SampleSceneProfile.asset",
+      "Packages/com.unity.render-pipelines.universal/Textures/BayerMatrix.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Animations/dragon_fly_spritesheet.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/UI/DraggableShape.prefab",
+    "deps": [
+      "Assets/_Project/Scripts/UI/PieceView.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+      "Assets/_Project/Scripts/Shape/DraggableShape.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Assets/_Project/Prefabs/UI/BlockTileUI.prefab"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/CloudWisps.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/CloudCorner.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/UITween.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/StoneFrame.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SettingsIcon.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/SquareParticle.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/slider.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/Interstitials/768x1024.prefab",
+    "deps": [
+      "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/768x1024.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_0.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_3.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Black_Normal.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Backups/GamePlay_BeforeTask01.unity",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs",
+      "Assets/_Project/_Assets/UI/Generated/BlockWhite.png",
+      "Assets/_Project/Scripts/Core/Managers/GameManager.cs",
+      "Assets/_Project/Scripts/Grid/GridBoard.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/LargeCorner_5.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/SmallCorner_3.asset",
+      "Assets/_Project/_Assets/UI/Generated/StoneFrame.png",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Square_2x2.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_5.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_4.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/T_4.asset",
+      "Assets/_Project/Prefabs/Audio/AudioManager.prefab",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/HorizontalLayoutGroup.cs",
+      "Assets/_Project/Scripts/UI/ClearPresentation.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Rectangle_2x3.asset",
+      "Assets/_Project/Scripts/UI/RewardedGameplay.cs",
+      "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs",
+      "Assets/_Project/Prefabs/UI/DraggableShape.prefab",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "Assets/_Project/Scripts/UI/ButtonFeedback.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Single.asset",
+      "Assets/_Project/Scripts/UI/UIManager.cs",
+      "Assets/_Project/ScriptableObjects/BubblePopConfig.asset",
+      "Assets/_Project/Scripts/UI/GameHUD.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Packages/com.unity.render-pipelines.core/Runtime/Volume/Volume.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/S_4.asset",
+      "Assets/Settings/SampleSceneProfile.asset",
+      "Assets/_Project/Scripts/UI/GameOverController.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Toggle.cs",
+      "Assets/_Project/_Assets/UI/Generated/BackgroundSoft.png",
+      "Assets/_Project/Resources/DifficultyConfig.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/Raycasters/PhysicsRaycaster.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/L_4.asset",
+      "Assets/_Project/Scripts/Effects/BubblePopEffectPlayer.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_2.asset",
+      "Assets/_Project/Scripts/UI/SafeArea.cs",
+      "Assets/_Project/Scripts/UI/MockRewardedProvider.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Z_4.asset",
+      "Assets/_Project/_Assets/sprite/blockblast_assets/board_frame.png",
+      "Assets/_Project/Scripts/Core/StateMachine/GameStateManager.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_2.asset",
+      "Assets/_Project/Scripts/UI/BoardView.cs",
+      "Assets/_Project/ScriptableObjects/BlockSpriteSet.asset",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/J_4.asset",
+      "Assets/_Project/Scripts/UI/TrayController.cs",
+      "Assets/_Project/_Assets/sprite/setting.png",
+      "Assets/_Project/Scripts/UI/SettingsPanel.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Square_3x3.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Assets/_Project/_Assets/UI/ReferenceArt/BackgroundCliffs.png",
+      "Assets/_Project/Prefabs/Shapes/GridCell.prefab",
+      "Assets/_Project/Scripts/Shape/TrayManager.cs",
+      "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png",
+      "Assets/_Project/ScriptableObjects/UITheme.asset",
+      "Assets/_Project/Scripts/AdManager/AdMobRewardedProvider.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/AspectRatioFitter.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Assets/_Project/_Assets/UI/Generated/SettingsIcon.png",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Core/Line_3.asset",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+      "Assets/_Project/_Assets/sprite/sky_block_sheet_transparent.png",
+      "Assets/_Project/Materials/White.mat",
+      "Assets/_Project/_Assets/sprite/Bộ giao diện game xếp khối .png",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/DefaultInputActions.inputactions",
+      "Assets/_Project/Scripts/UI/ButtonAudio.cs",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs",
+      "Assets/_Project/ScriptableObjects/Shapes/Diagonal/Diagonal_3.asset",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/MockRewardedProvider.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Editor/MenuInstaller.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/ReferenceArt/BlockPurpleHighlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/Plugins/Android/GoogleMobileAdsPlugin.androidlib",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/05_SpriteSheets/icons_sheet_transparent.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/GradleProcessor.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Prefabs/GamePlayEnvironment.prefab",
+    "deps": [
+      "Assets/_Project/Environment/Configs/GamePlayEnvironment.asset",
+      "Assets/_Project/Scripts/Environment/IslandEnvironment.cs"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Single.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Editor/MenuChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/BackgroundSoft.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardTraySteps.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_navigation.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/ScriptableObjects/Shapes/Core/Line_2.asset",
+    "deps": [
+      "Assets/_Project/Scripts/Data/ShapeData.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_6.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/TMP Settings.asset",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/TMP/TMP_Settings.cs",
+      "Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset",
+      "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt",
+      "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Editor/OfflineAdsChecks.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Core/StateMachine/GameStateManager.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Backups/MainMenu_BeforeTask01.unity",
+    "deps": [
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs",
+      "Assets/_Project/_Assets/_Menu/background.jpeg",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs",
+      "Assets/_Project/_Assets/_Menu/Menu.png",
+      "Assets/_Project/Prefabs/Audio/AudioManager.prefab",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs",
+      "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs",
+      "Assets/_Project/Scripts/UI/ButtonAudio.cs",
+      "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs",
+      "Assets/_Project/Scripts/AdManager/AdsManager.cs",
+      "Assets/_Project/Scripts/AdManager/AdPrivacyButton.cs",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/DefaultInputActions.inputactions",
+      "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs",
+      "Assets/_Project/Resources/AdsConfiguration.asset",
+      "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs",
+      "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/_Project/Scripts/UI/PlaySceneLoader.cs"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Materials/Textures/OctagonWork2.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/PlayButton.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Effects/BubblePopEffect.prefab",
+    "deps": [
+      "Assets/_Project/Scripts/Effects/BubblePopEffect.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Scripts/UI/ClearPresentation.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_sound.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Materials/Mat_Glow.mat",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Editor/AssetVersion.cs",
+      "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Yellow_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Tests/Editor/BubblePopTests.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Sprites/EmojiOne.json",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+    "deps": [
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "Packages/com.unity.ugui/Runtime/TMP/TMP_FontAsset.cs",
+      "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/MenuDragon.controller",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonIdle.anim",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonBlink.anim",
+      "Assets/_Project/_Assets/SkyIslandMainMenu/Animations/DragonPlayReaction.anim"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Shapes/BlockCell2D.prefab",
+    "deps": [
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/Blue.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/Purple_Highlighted.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/GoogleMobileAds.Ump.Android.dll",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Mascot/DragonMascot.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Scripts/Core/Managers/AudioManager.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/GoogleMobileAds/Editor/Resources/PlaceholderAds/AdImages/728x90.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/UI/AntigravityGen/Block1Disabled.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/sprite/blockblast_assets/board_base.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Flower/PinkPurpleFlowers.prefab",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat"
+    ]
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Scripts/MenuPresentation.cs",
+    "deps": []
+  },
+  {
+    "path": "Assets/TextMesh Pro/Sprites/EmojiOne.png",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/Environment/Materials/IslandWater.shader",
+    "deps": []
+  },
+  {
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_0.asset",
+    "deps": [
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    ]
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Shapes/GridCell.prefab",
+    "deps": [
+      "Assets/_Project/Scripts/Grid/GridCell.cs",
+      "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+      "Assets/_Project/_Assets/SkyIslandGameplay/Configs/GameplayTheme.asset",
+      "Assets/_Project/Scripts/UI/CellView.cs"
+    ]
+  }
+]

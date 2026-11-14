@@ -53,7 +53,6 @@ public static class ReferenceGameplayArt
             Wood(hud,94,35,62,34);Wood(hud,180,35,117,34);
             Save(hud,"HUDWood",Vector4.zero);
             Save(Crop(329,395,47,57),"SettingsButton",Vector4.zero);
-            Save(Crop(380,395,47,57),"HintButton",Vector4.zero);
             var board=Crop(429,653,292,260);
             Clear(board,32,27,234,191);
             Save(board,"BoardStone",new Vector4(36,46,36,36));

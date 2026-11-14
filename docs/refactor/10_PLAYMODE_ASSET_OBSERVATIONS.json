@@ -1,0 +1,2090 @@
+[
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_0_6",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_6.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_0_6",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Island_Front_Pink (3)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+    "fileID": 21300000,
+    "assetName": "PinkPurpleFlowers",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Board_Left_Buttercups",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png",
+    "fileID": 21300000,
+    "assetName": "ButtercupPatch",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_4_4",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_4.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_4_4",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "GameplayPiece(Clone)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+    "fileID": 21300000,
+    "assetName": "BlockBlue",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_3_0",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_0.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_3_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_4_5",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_5.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_4_5",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_2_0",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_0.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_2_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Island_Front_Pink (1)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png",
+    "fileID": 21300000,
+    "assetName": "DaisyBorder",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_0_4",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_4.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_0_4",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Island_Front_Pink",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+    "fileID": 21300000,
+    "assetName": "PinkPurpleFlowers",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "GameplayDragon",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Dragon.png",
+    "fileID": 21300000,
+    "assetName": "Dragon",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Board_Left_Pink",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+    "fileID": 21300000,
+    "assetName": "PinkPurpleFlowers",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_4_1",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_1.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_4_1",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Dragon_Front_Daisies",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png",
+    "fileID": 21300000,
+    "assetName": "DaisyBorder",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_0_2",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_2.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_0_2",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BlockTileUI(Clone)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockCoral.png",
+    "fileID": 21300000,
+    "assetName": "BlockCoral",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BlockTileUI(Clone)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockPurple.png",
+    "fileID": 21300000,
+    "assetName": "BlockPurple",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_0_5",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_5.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_0_5",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_3_6",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_6.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_3_6",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Board_Right_Pink",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+    "fileID": 21300000,
+    "assetName": "PinkPurpleFlowers",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_4_2",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_2.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_4_2",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BestPlate",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BestPlate.png",
+    "fileID": 21300000,
+    "assetName": "BestPlate",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_0_3",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_3.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_0_3",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_4_3",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_3.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_4_3",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Dragon_Front_Pink",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png",
+    "fileID": 21300000,
+    "assetName": "PinkPurpleFlowers",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Dragon_Left_Daisies",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png",
+    "fileID": 21300000,
+    "assetName": "DaisyBorder",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_0_0",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_0.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_0_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Board_Right_Daisies",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png",
+    "fileID": 21300000,
+    "assetName": "DaisyBorder",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "TrayPanel",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/PieceTray.png",
+    "fileID": 21300000,
+    "assetName": "PieceTray",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_1_0",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_0.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_1_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BoardTraySteps",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardTraySteps.png",
+    "fileID": 21300000,
+    "assetName": "BoardTraySteps",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_4_6",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_6.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_4_6",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "DragonPerch",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/DragonPerch.png",
+    "fileID": 21300000,
+    "assetName": "DragonPerch",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_0_1",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_1.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_0_1",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Settings",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Settings.png",
+    "fileID": 21300000,
+    "assetName": "Settings",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_2_6",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_6.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_2_6",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_4_0",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_0.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_4_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Island_Front_Pink (2)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png",
+    "fileID": 21300000,
+    "assetName": "ButtercupPatch",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Segment_1_6",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_6.asset",
+    "fileID": 21300000,
+    "assetName": "Segment_1_6",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "ScorePlate",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/ScorePlate.png",
+    "fileID": 21300000,
+    "assetName": "ScorePlate",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Leaf_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": -2516684815595071745,
+    "assetName": "Leaf",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cloud_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cloud_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BackgroundDimWorld",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+    "fileID": 21300000,
+    "assetName": "Panel",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "GameplayExtendedSky",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/IslandBackground.png",
+    "fileID": 21300000,
+    "assetName": "IslandBackground",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Leaf_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": -2516684815595071745,
+    "assetName": "Leaf",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cloud_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Background",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/IslandBackground.png",
+    "fileID": 21300000,
+    "assetName": "IslandBackground",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Leaf_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": -2516684815595071745,
+    "assetName": "Leaf",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_6_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_0_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_0",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_2_5",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_3_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_1_2",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_4",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_1",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_5_3",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_7_6",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BoardPanelView",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+    "fileID": 21300000,
+    "assetName": "Panel",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BackgroundSoftLayer",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/UI/Generated/BackgroundSoft.png",
+    "fileID": 21300000,
+    "assetName": "BackgroundSoft",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Cell_4_7",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png",
+    "fileID": 21300000,
+    "assetName": "BoardCell",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Close",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button.png",
+    "fileID": 2530564911472380330,
+    "assetName": "button_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Icon ",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+    "fileID": 6315862204487574133,
+    "assetName": "tile_icon_blue_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Image",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_music.png",
+    "fileID": 6308264801367439915,
+    "assetName": "icon_music_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Track",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png",
+    "fileID": 7287056034414077285,
+    "assetName": "slider_track_blue_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Fill",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png",
+    "fileID": 6458808808910329689,
+    "assetName": "slider_fill_green_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Handle",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png",
+    "fileID": 7064704858591190236,
+    "assetName": "slider_handle_crystal_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Home",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_home_with_icon.png",
+    "fileID": 5307449885526249295,
+    "assetName": "button_blue_home_with_icon_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Background",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/frame.png",
+    "fileID": 7501387830980884940,
+    "assetName": "frame_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Icon",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+    "fileID": 6315862204487574133,
+    "assetName": "tile_icon_blue_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Check",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_on.png",
+    "fileID": 5600973481312737296,
+    "assetName": "toggle_on_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Replay",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_replay_with_icon.png",
+    "fileID": -1546553725977554943,
+    "assetName": "button_blue_replay_with_icon_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Box",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_off.png",
+    "fileID": 3744754425710352626,
+    "assetName": "toggle_off_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Image",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_sound.png",
+    "fileID": 2942687380624916351,
+    "assetName": "icon_sound_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Image",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_vibration.png",
+    "fileID": 5942659516046825127,
+    "assetName": "icon_vibration_0",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "PlacementGlow",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png",
+    "fileID": 21300000,
+    "assetName": "cell_highlight",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "HighlightGlow",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png",
+    "fileID": 21300000,
+    "assetName": "cell_highlight",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "FillVisual",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+    "fileID": 21300000,
+    "assetName": "BlockWhite",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Ghost",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+    "fileID": 21300000,
+    "assetName": "BlockWhite",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Block",
+    "type": "SpriteRenderer",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png",
+    "fileID": 21300000,
+    "assetName": "BlockWhite",
+    "time": 19.964056
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "RecordGlow",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+    "fileID": 21300000,
+    "assetName": "Panel",
+    "time": 97.5369949
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Point1",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/UI/Generated/BlockWhite.png",
+    "fileID": 21300000,
+    "assetName": "BlockWhite",
+    "time": 97.5369949
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Panel",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameover/frame.png",
+    "fileID": 7501387830980884940,
+    "assetName": "frame_0",
+    "time": 97.5369949
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Replay",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameover/button.png",
+    "fileID": 263407725,
+    "assetName": "button_1",
+    "time": 97.5369949
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Point0",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/UI/Generated/BlockWhite.png",
+    "fileID": 21300000,
+    "assetName": "BlockWhite",
+    "time": 97.5369949
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "ContinueRewarded",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameover/button.png",
+    "fileID": 2530564911472380330,
+    "assetName": "button_0",
+    "time": 97.5369949
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Base",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png",
+    "fileID": 21300000,
+    "assetName": "Panel",
+    "time": 97.5369949
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "Point2",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/UI/Generated/BlockWhite.png",
+    "fileID": 21300000,
+    "assetName": "BlockWhite",
+    "time": 97.5369949
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Cloud_1",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Leaf_1",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": -2516684815595071745,
+    "assetName": "Leaf",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 4609173563387012312,
+    "assetName": "Dragon_Idle_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "ExtendedSky",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/MenuIsland.png",
+    "fileID": 21300000,
+    "assetName": "MenuIsland",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Leaf_0",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": -2516684815595071745,
+    "assetName": "Leaf",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_11",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Cloud_0",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_9",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "SettingsButton",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/SettingsButton.png",
+    "fileID": 21300000,
+    "assetName": "SettingsButton",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_4",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_1",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_10",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_3",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "ChimneySmoke_1",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_7",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Play_btn",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/PlayButton.png",
+    "fileID": 21300000,
+    "assetName": "PlayButton",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "WaterfallMist_1",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "img_character",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Explorer.png",
+    "fileID": 21300000,
+    "assetName": "Explorer",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Cloud_2",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "ChimneySmoke_2",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_0",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_5",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "WaterfallMist_2",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Logo_img",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/TitleLogo.png",
+    "fileID": 21300000,
+    "assetName": "TitleLogo",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_6",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_2",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "MainIslandAndSky",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/MenuIsland.png",
+    "fileID": 21300000,
+    "assetName": "MenuIsland",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Mote_8",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/VFX/SoftLight.png",
+    "fileID": 4502769313607820382,
+    "assetName": "SoftLight_0",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "WaterfallMist_0",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "ChimneySmoke_0",
+    "type": "Image",
+    "path": "Assets/_Project/Environment/Art/CloudLeafAtlas.png",
+    "fileID": 1932321895275581534,
+    "assetName": "Cloud",
+    "time": 112.4978
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -2045567293,
+    "assetName": "Dragon_Idle_6",
+    "time": 113.272919
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 2050552617,
+    "assetName": "Dragon_Idle_7",
+    "time": 113.373749
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -213360274,
+    "assetName": "Dragon_Idle_8",
+    "time": 113.499443
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 1820458599,
+    "assetName": "Dragon_Idle_9",
+    "time": 113.624336
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 93634826,
+    "assetName": "Dragon_Idle_10",
+    "time": 113.749786
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 356436231,
+    "assetName": "Dragon_Idle_11",
+    "time": 113.874428
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -1668344661,
+    "assetName": "Dragon_Idle_12",
+    "time": 113.998138
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 2066976582,
+    "assetName": "Dragon_Idle_13",
+    "time": 114.122917
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 1117202942,
+    "assetName": "Dragon_Idle_14",
+    "time": 114.257675
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -921587470,
+    "assetName": "Dragon_Idle_15",
+    "time": 114.376358
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -443571439,
+    "assetName": "Dragon_Idle_16",
+    "time": 114.5005
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -773683508,
+    "assetName": "Dragon_Idle_17",
+    "time": 114.62854
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -2101696836,
+    "assetName": "Dragon_Idle_18",
+    "time": 114.750023
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 243879074,
+    "assetName": "Dragon_Idle_19",
+    "time": 114.876587
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -1726118701,
+    "assetName": "Dragon_Idle_20",
+    "time": 115.000038
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 52513866,
+    "assetName": "Dragon_Idle_21",
+    "time": 115.126472
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -529234311,
+    "assetName": "Dragon_Idle_22",
+    "time": 115.252968
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 1141033822,
+    "assetName": "Dragon_Idle_23",
+    "time": 115.377625
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 734043391,
+    "assetName": "Dragon_Idle_24",
+    "time": 115.501778
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -503812346,
+    "assetName": "Dragon_Idle_25",
+    "time": 115.6272
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 1588965202,
+    "assetName": "Dragon_Idle_26",
+    "time": 115.75058
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 1572796212,
+    "assetName": "Dragon_Idle_27",
+    "time": 115.890068
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -723506763,
+    "assetName": "Dragon_Idle_28",
+    "time": 115.998169
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -630029233,
+    "assetName": "Dragon_Idle_29",
+    "time": 116.1269
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -552961186,
+    "assetName": "Dragon_Idle_30",
+    "time": 116.257248
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -1141714026,
+    "assetName": "Dragon_Idle_31",
+    "time": 116.387146
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": 2326664460026951475,
+    "assetName": "Dragon_Blink_0",
+    "time": 116.654587
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": 1444801788,
+    "assetName": "Dragon_Blink_2",
+    "time": 116.693588
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": 1413881091,
+    "assetName": "Dragon_Blink_4",
+    "time": 116.725769
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": -908998132,
+    "assetName": "Dragon_Blink_6",
+    "time": 116.76313
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": 129425062,
+    "assetName": "Dragon_Blink_13",
+    "time": 116.797531
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": -1431038352,
+    "assetName": "Dragon_Blink_11",
+    "time": 116.83123
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": 800176819,
+    "assetName": "Dragon_Blink_9",
+    "time": 116.869034
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Blink.png",
+    "fileID": -1041404544,
+    "assetName": "Dragon_Blink_7",
+    "time": 116.902328
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -355127050,
+    "assetName": "Dragon_Idle_1",
+    "time": 117.0937
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": 177361730,
+    "assetName": "Dragon_Idle_2",
+    "time": 117.221809
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -1136792054,
+    "assetName": "Dragon_Idle_3",
+    "time": 117.350967
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -391398102,
+    "assetName": "Dragon_Idle_4",
+    "time": 117.474243
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Idle.png",
+    "fileID": -752233971,
+    "assetName": "Dragon_Idle_5",
+    "time": 117.596581
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Image",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_vibration.png",
+    "fileID": 5942659516046825127,
+    "assetName": "icon_vibration_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Image (1)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+    "fileID": 6315862204487574133,
+    "assetName": "tile_icon_blue_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Image",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_music.png",
+    "fileID": 6308264801367439915,
+    "assetName": "icon_music_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Check",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_on.png",
+    "fileID": 5600973481312737296,
+    "assetName": "toggle_on_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Background",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/frame.png",
+    "fileID": 7501387830980884940,
+    "assetName": "frame_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Box",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_off.png",
+    "fileID": 3744754425710352626,
+    "assetName": "toggle_off_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Handle",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png",
+    "fileID": 7064704858591190236,
+    "assetName": "slider_handle_crystal_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Track",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png",
+    "fileID": 7287056034414077285,
+    "assetName": "slider_track_blue_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Image (2)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+    "fileID": 6315862204487574133,
+    "assetName": "tile_icon_blue_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Fill",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png",
+    "fileID": 6458808808910329689,
+    "assetName": "slider_fill_green_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Close",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_yellow_close_labeled.png",
+    "fileID": 5253870020984622663,
+    "assetName": "button_yellow_close_labeled_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Image",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png",
+    "fileID": 6315862204487574133,
+    "assetName": "tile_icon_blue_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Image",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_sound.png",
+    "fileID": 2942687380624916351,
+    "assetName": "icon_sound_0",
+    "time": 133.561127
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Play_Reaction.png",
+    "fileID": -6884971427691096721,
+    "assetName": "Dragon_Play_Reaction_0",
+    "time": 141.544556
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "LoadingTitle",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandLoading/loading_title_gold.png",
+    "fileID": 5257289788633876091,
+    "assetName": "loading_title_gold_0",
+    "time": 141.556274
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "ProgressBar",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandLoading/progress_track_empty.png",
+    "fileID": 2402613193211741223,
+    "assetName": "progress_track_empty_0",
+    "time": 141.556274
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "Fill",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandLoading/progress_fill_gold.png",
+    "fileID": 6757402031518685000,
+    "assetName": "progress_fill_gold_0",
+    "time": 141.556274
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Play_Reaction.png",
+    "fileID": 1473044041,
+    "assetName": "Dragon_Play_Reaction_5",
+    "time": 141.800659
+  },
+  {
+    "scene": "MainMenu",
+    "objectName": "DragonSheetArtwork",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandMainMenu/Dragon_Play_Reaction.png",
+    "fileID": -2047872257,
+    "assetName": "Dragon_Play_Reaction_6",
+    "time": 141.884308
+  },
+  {
+    "scene": "GamePlay",
+    "objectName": "BlockTileUI(Clone)",
+    "type": "Image",
+    "path": "Assets/_Project/_Assets/SkyIslandGameplay/BlockBlue.png",
+    "fileID": 21300000,
+    "assetName": "BlockBlue",
+    "time": 141.892059
+  }
+]

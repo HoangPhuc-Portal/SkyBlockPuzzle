@@ -104,7 +104,6 @@ public static class GameplayReferenceLayout
         Box((RectTransform)design.Find("BestPlate"), 60, 60, 240, 100);
         Box((RectTransform)design.Find("ScorePlate"), 300, 20, 355, 165);
         Box((RectTransform)design.Find("Settings"), 785, 50, 115, 115);
-        Box((RectTransform)design.Find("Hint"), 850, 185, 65, 65);
         var hs = new SerializedObject(Object.FindFirstObjectByType<GameHUD>());
         Text((TextMeshProUGUI)hs.FindProperty("score").objectReferenceValue, 85, 49, 145, 45, 40, true);
         Text((TextMeshProUGUI)hs.FindProperty("highScore").objectReferenceValue, 40, 72, 275, 75, 70, true);

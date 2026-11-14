@@ -1,0 +1,4 @@
+PASS Assets\Scenes\GamePlay.unity: 61 removed objects/components; no local references to removed IDs
+PASS Assets\_Project\Prefabs\UI\GameplayScreen.prefab: 61 removed objects/components; no local references to removed IDs
+PASS Assets\_Project\Environment\Backups\GamePlay_BeforeTask01.unity: 61 removed objects/components; no local references to removed IDs
+PASS no removed Hint script GUID, component names, popup or reward fields in imported assets

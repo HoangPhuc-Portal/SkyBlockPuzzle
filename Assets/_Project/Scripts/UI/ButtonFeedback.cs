@@ -15,18 +15,8 @@ namespace BlockBlast.UI
         public void OnPointerUp(PointerEventData e) { if (!controlled) Scale(1); }
         public void OnPointerExit(PointerEventData e) { if (!controlled) Scale(1); }
         public void SetExpanded(bool expanded) => Scale(expanded ? 1.1f : 1);
-        public void Pulse()
-        {
-            Initialize(); CancelTween();
-            if (isActiveAndEnabled) tween = StartCoroutine(PulseRoutine());
-        }
-        IEnumerator PulseRoutine()
-        {
-            yield return Animate(1.1f);
-            yield return new WaitForSecondsRealtime(.5f);
-            yield return Animate(1);
-            tween = null;
-        }
+
+
         IEnumerator Animate(float factor)
         {
             var from = transform.localScale;

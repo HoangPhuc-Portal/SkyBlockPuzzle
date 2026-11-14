@@ -38,9 +38,6 @@ namespace BlockBlast.UI
         [Header("Game Over")]
         public float gameOverDelay = .5f, gameOverOpenTime = .25f, gameOverCloseTime = .15f, recordFlashTime = 1.2f;
         public Color recordGold = new Color32(255, 213, 74, 255);
-        [Header("Hint budget per successful placement")]
-        [Min(1)] public int charge = 1;
-        public float hintCooldown = 1, hintPulseTime = .3f;
 
         [Header("Sliced surfaces and effects")]
         public Sprite panelSprite, cellSprite, frameSprite, slotSprite, whiteBlock, squareParticle;
@@ -66,11 +63,9 @@ namespace BlockBlast.UI
             cellPixels = Mathf.Max(1, cellPixels);
             gap = Mathf.Max(0, gap);
             trayCellPixels = Mathf.Max(60/.92f, trayCellPixels);
-            charge = Mathf.Max(1, charge);
             placementTime = Mathf.Max(.01f, placementTime);
             snapTime = Mathf.Max(.01f, snapTime);
             returnTime = Mathf.Max(.01f, returnTime);
-            hintPulseTime = Mathf.Max(.05f, hintPulseTime);
         }
     }
 }

@@ -26,7 +26,6 @@ namespace BlockBlast.UI
         [SerializeField] private Image recordGlow;
         [SerializeField] private Button replayButton, viewBoardButton;
         [SerializeField] private GameHUD hud;
-        [SerializeField] private HintController hint;
         [SerializeField] private SettingsPanel settings;
         [SerializeField] private ClearPresentation clearPresentation;
         [SerializeField] private BlockBlast.Effects.BubblePopEffectPlayer bubbles;
@@ -38,11 +37,17 @@ namespace BlockBlast.UI
         public int FinalScore { get; private set; }
         public bool IsNewRecord { get; private set; }
 
+        // The redesigned popup may omit the decorative crown.
+        private void SetCrownVisible(bool visible)
+        {
+            if (crown != null) crown.SetActive(visible);
+        }
+
         private void Awake()
         {
             popup.SetActive(false);
             if (viewBoardButton != null) viewBoardButton.gameObject.SetActive(false);
-            crown.SetActive(false);
+            SetCrownVisible(false);
             recordGlow.color = Color.clear;
             var replayLabel = replayButton.GetComponentInChildren<TMP_Text>(true);
             if (replayLabel != null) replayLabel.text = "Chơi lại";
@@ -66,7 +71,7 @@ namespace BlockBlast.UI
             IsNewRecord = FinalScore > scoreManager.RoundStartHighScore;
             finalScore.text = FinalScore.ToString();
             highScore.text = "KỶ LỤC  " + scoreManager.HighScore;
-            crown.SetActive(IsNewRecord);
+            SetCrownVisible(IsNewRecord);
             settings.Close();
             rewards.ResetRequests();
             StartCoroutine(Open());
@@ -134,12 +139,12 @@ namespace BlockBlast.UI
         {
             if (!CanRequestRevive) return;
             StopAllCoroutines(); transitioning=true; group.interactable=false;
-            settings.Close(); hint.Cancel(); clearPresentation.ResetEffects(); bubbles.StopEffects();
+            settings.Close(); clearPresentation.ResetEffects(); bubbles.StopEffects();
             if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(null);
             tray.ClearHand(); board.ResetBoard(); board.SyncModel(); scoreManager.PrepareRevive();
-            hint.ResumeAfterRevive(); hud.RefreshImmediately(); tray.SpawnNewHand();
+            hud.RefreshImmediately(); tray.SpawnNewHand();
             popup.SetActive(false); group.blocksRaycasts=false; group.alpha=0;
-            requested=transitioning=false; crown.SetActive(false); recordGlow.color=Color.clear;
+            requested=transitioning=false; SetCrownVisible(false); recordGlow.color=Color.clear;
             scoreManager.UnlockNewRound(); tray.CheckGameOverCondition();
         }
         private void ResetRound()
@@ -150,7 +155,6 @@ namespace BlockBlast.UI
             popup.SetActive(false);
             group.interactable = group.blocksRaycasts = false;
             group.alpha = 0;
-            hint.ResetRound();
             clearPresentation.ResetEffects();
             bubbles.StopEffects();
             if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(null);
@@ -160,7 +164,7 @@ namespace BlockBlast.UI
             hud.RefreshImmediately();
             tray.SpawnNewHand();
             requested = false;
-            crown.SetActive(false);
+            SetCrownVisible(false);
             recordGlow.color = Color.clear;
             scoreManager.UnlockNewRound();
             tray.CheckGameOverCondition();

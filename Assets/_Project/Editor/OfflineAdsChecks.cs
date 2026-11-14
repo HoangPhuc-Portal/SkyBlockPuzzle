@@ -44,7 +44,6 @@ public static class OfflineAdsChecks
     static OfflineAdsCheckProvider provider;
     static GameOverController flow;
     static SettingsPanel settings;
-    static HintController hints;
     static GameManager gm;
     static T Get<T>(object target, string name) => (T)target.GetType().GetField(name, Fields).GetValue(target);
     static void Set(object target, string name, object value) => target.GetType().GetField(name, Fields).SetValue(target, value);
@@ -68,7 +67,6 @@ public static class OfflineAdsChecks
         for (int r=0;r<GridBoard.GRID_SIZE;r++) for(int c=0;c<GridBoard.GRID_SIZE;c++) Check(!GridBoard.Instance.Model.Occupied(r,c), "Model not empty");
         Check(TrayManager.Instance.Pieces.Count(p => p != null) == 3 && TrayManager.Instance.Pieces.All(p => !old.Contains(p.GetInstanceID())), "Tray not fresh 3 pieces");
         Check(Get<List<GridCell>>(GridBoard.Instance,"currentPreviewCells").Count == 0 && Get<List<GridCell>>(GridBoard.Instance,"currentHighlightedLineCells").Count == 0, "Preview/highlight retained");
-        Check(hints.Remaining == Get<int>(hints,"initialHintCount"), "Existing per-round hint policy changed");
     }
     [MenuItem("Block Blast/Tests/Offline Online Gameplay and Ads (Play Mode)")]
     public static void Run()
@@ -97,7 +95,7 @@ public static class OfflineAdsChecks
     {
         SceneManager.LoadScene("GamePlay"); yield return 1f;
         gm=GameManager.Instance; flow=UnityEngine.Object.FindFirstObjectByType<GameOverController>();
-        settings=UnityEngine.Object.FindFirstObjectByType<SettingsPanel>(); hints=UnityEngine.Object.FindFirstObjectByType<HintController>();
+        settings=UnityEngine.Object.FindFirstObjectByType<SettingsPanel>();
         rewards=UnityEngine.Object.FindFirstObjectByType<RewardedGameplay>(); original=Get<RewardedProvider>(rewards,"provider");
         Check(original is AdMobRewardedProvider, "Scene not wired to AdMob provider");
         provider=rewards.gameObject.AddComponent<OfflineAdsCheckProvider>(); Set(rewards,"provider",provider);
@@ -121,41 +119,32 @@ public static class OfflineAdsChecks
             AssertNewRound(high,coins,old);
             Check(provider.Shows==shows && provider.Prepares==prepares,"Settings Replay requested ad");
             Pass((online?"Online":"Offline")+" Settings Replay and open without ads");
-            int before=hints.Remaining; hints.ShowHint();
-            Check(hints.Remaining==before-1 && provider.Shows==shows,"Available Hint requires ad or wrong count"); hints.Cancel();
-            Pass((online?"Online":"Offline")+" available Hint consumes exactly one without ad");
         }
-        typeof(HintController).GetProperty("Remaining").SetValue(hints,0);
-        Network.SetValue(null,false); hints.ShowHint(); Click(rewards,"watchHint");
-        int count=provider.Shows, score=gm.CurrentScore;
-        Check(!rewards.IsBusy && hints.Remaining==0 && Get<TMP_Text>(rewards,"hintStatus").text.Contains("Internet"),"Offline hint incorrectly rewarded/blocked");
-        rewards.CloseHint(); Check(!gm.IsInputLocked,"Offline hint popup stuck");
-        Pass("Offline exhausted Hint asks for Internet, no grant, no score change, popup closes");
-        Network.SetValue(null,true); provider.Ready=false; hints.ShowHint(); Click(rewards,"watchHint");
-        Check(!rewards.IsBusy && provider.Shows==count && provider.Prepares>0 && hints.Remaining==0,"Not-ready handling");
+        int count, score;
         provider.Ready=true;
-        foreach(var result in new[]{RewardResult.Cancelled,RewardResult.Failed,RewardResult.Earned})
-        {
-            Click(rewards,"watchHint"); Check(rewards.IsBusy,"Reward request did not start");
-            Click(rewards,"watchHint"); provider.Complete(result);
-            Check(hints.Remaining==(result==RewardResult.Earned?2:0) && gm.CurrentScore==score && !rewards.IsBusy,"Hint reward count/failure/duplicate incorrect");
-        }
-        Check(!gm.IsInputLocked,"Rewarded hint remained modal");
-        Pass("Online not-ready prepares; cancelled/failed grant zero; earned duplicated callback grants exactly 2, no auto-use");
         Seed(); gm.ConfirmGameOver(); yield return 1f;
         score=gm.CurrentScore; int record=gm.HighScore; var ids=TrayManager.Instance.Pieces.Select(p=>p.GetInstanceID()).ToArray();
         Network.SetValue(null,false); count=provider.Shows; Click(rewards,"continueButton");
         Check(provider.Shows==count && flow.IsPopupVisible && gm.IsGameOver && Cells.Any(c=>c.IsOccupied) && Get<TMP_Text>(rewards,"reviveStatus").text.Contains("Internet"),"Offline Continue changed game");
         Pass("Offline Continue rejected; Game Over and board preserved");
-        Network.SetValue(null,true); Click(rewards,"continueButton"); provider.Complete(RewardResult.Failed);
+        Network.SetValue(null,true); provider.Ready=false; int preparesBefore=provider.Prepares;
+        Click(rewards,"continueButton");
+        Check(provider.Prepares==preparesBefore+1 && provider.Shows==count && gm.IsGameOver,"Not-ready Continue changed game");
+        provider.Ready=true; Click(rewards,"continueButton"); provider.Complete(RewardResult.Cancelled);
+        Check(gm.IsGameOver && gm.CurrentScore==score && !rewards.IsBusy,"Cancelled Continue changed game");
+        Click(rewards,"continueButton"); provider.Complete(RewardResult.Failed);
         Check(gm.IsGameOver && gm.CurrentScore==score,"Failed Continue changed game");
         Click(rewards,"continueButton"); provider.Complete(RewardResult.Earned);
         Check(!gm.IsInputLocked && !gm.IsGameOver && !flow.IsPopupVisible && gm.CurrentScore==score && gm.HighScore==record && gm.CurrentCombo==0 && Cells.All(c=>!c.IsOccupied),"Earned Continue reset incorrect");
         Check(TrayManager.Instance.Pieces.Count(p=>p!=null)==3 && TrayManager.Instance.Pieces.All(p=>!ids.Contains(p.GetInstanceID())),"Continue tray not fresh");
         Pass("Online failed Continue preserves round; earned Continue clears board, preserves score/record, resets combo and respawns 3");
         // Invalidated callback may arrive after a reset; it must not grant anything.
-        typeof(HintController).GetProperty("Remaining").SetValue(hints,0); hints.ShowHint(); Click(rewards,"watchHint");
-        var late=provider.Pending; rewards.ResetRequests(); late(RewardResult.Earned); Check(hints.Remaining==0,"Late callback granted reward");
+        gm.ConfirmGameOver(); yield return 1f;
+        Click(rewards,"continueButton");
+        var late=provider.Pending; Check(late!=null,"Revive request missing");
+        rewards.ResetRequests(); late(RewardResult.Earned);
+        Check(gm.IsGameOver && !rewards.IsBusy,"Late callback revived round");
+        flow.Replay(); yield return .3f;
         Network.SetValue(null,false); yield return .1f;
         Check(!gm.IsInputLocked && !AdsManager.Instance.IsRewardedReady,"Network loss locked gameplay");
         Click(settings,"open"); Get<Slider>(settings,"music").value=.23f; Get<Slider>(settings,"sfx").value=.37f; Get<Toggle>(settings,"haptic").isOn=false;

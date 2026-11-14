@@ -67,7 +67,6 @@ public static class ShapeLibraryPlayChecks
         SceneManager.LoadScene("GamePlay");yield return 1f;
         var shapes=ShapeLibraryRebuild.Load();
         Check(Field<List<ShapeData>>(TrayManager.Instance,"availableShapes").SequenceEqual(shapes),"Available Shapes differs from catalog");
-        var hints=UnityEngine.Object.FindFirstObjectByType<HintController>();
         var randomKeys=new HashSet<string>();UnityEngine.Random.InitState(41037);
         foreach(var s in shapes)for(int i=0;i<100;i++){var v=s.CreateRuntime();Check(v.Source==s,"Wrong source");randomKeys.Add(v.Key);}
         Check(randomKeys.Count==41,"Random rotation cannot reach all 41 variants");
@@ -81,7 +80,6 @@ public static class ShapeLibraryPlayChecks
                 var slot=(RectTransform)p.transform.parent;var corners=new Vector3[4];
                 foreach(RectTransform tile in p.transform){tile.GetWorldCorners(corners);foreach(var c in corners){var local=(Vector2)slot.InverseTransformPoint(c);Check(slot.rect.Contains(local),"Long line overflows tray slot: "+variant.Key);}}
             }
-            Check(hints.FindHint(out var hinted,out var pos)&&hinted!=null,"Hint did not find placement");
             var board=GridBoard.Instance;
             Check(!board.IsValid(variant,board.CellPosition(GridBoard.GRID_SIZE-1,GridBoard.GRID_SIZE-1))||variant.Cells.Count==1,"Out-of-bounds shape accepted");
             p.OnBeginDrag(new PointerEventData(EventSystem.current){position=RectTransformUtility.WorldToScreenPoint(null,p.transform.position)});
@@ -116,7 +114,7 @@ public static class ShapeLibraryPlayChecks
         EditorApplication.update-=Tick;(routine as IDisposable)?.Dispose();routine=null;
         if(hadRecord)PlayerPrefs.SetInt("BlockBlast_HighScore",record);else PlayerPrefs.DeleteKey("BlockBlast_HighScore");PlayerPrefs.Save();
         UnityEngine.Random.state=random;Application.runInBackground=background;
-        string result=error==null?"PASS: 17 catalog references; 41 unique random/runtime orientations; all 41 rendered with correct cell count, real OnBeginDrag/OnDrag/OnEndDrag, preview, exact occupancy, score and invalid overlap. Long lines fit tray, clear horizontal/vertical lines with score 315. Hint, full-board Game Over and free Replay pass. Record restored.":"FAIL after "+tested+" orientations: "+error;
+        string result=error==null?"PASS: 17 catalog references; 41 unique random/runtime orientations; all 41 rendered with correct cell count, real OnBeginDrag/OnDrag/OnEndDrag, preview, exact occupancy, score and invalid overlap. Long lines fit tray, clear horizontal/vertical lines with score 315. Full-board Game Over and free Replay pass. Record restored.":"FAIL after "+tested+" orientations: "+error;
         Directory.CreateDirectory("Captures");File.WriteAllText("Captures/shape-library-play-checks.txt",result);
         if(error==null)Debug.Log(result);else Debug.LogError(result);
         if(EditorApplication.isPlaying)SceneManager.LoadScene("MainMenu");

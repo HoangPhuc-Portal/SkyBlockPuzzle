@@ -40,7 +40,7 @@ public static class GameplayUIInstaller {
  var hud=Node("HUD",safe,new Vector2(.035f,.865f),new Vector2(.965f,.975f));var panel=Image("Pill",hud,new Color(theme.panel.r,theme.panel.g,theme.panel.b,.85f),theme.panelSprite);
  var scoreArea=Node("ScoreArea",hud,new Vector2(.03f,.15f),new Vector2(.36f,.85f));Text("Trophy",scoreArea,"★",64,new Color(1,.84f,.29f)).rectTransform.anchorMax=new Vector2(.22f,1);var score=Text("Score",scoreArea,"0",56,Color.white);score.rectTransform.anchorMin=new Vector2(.25f,0);score.fontStyle=FontStyles.Bold;score.fontMaterial=new Material(score.fontSharedMaterial);score.outlineColor=Color.black;score.outlineWidth=.2f;
  var high=Text("HighScore",hud,"BEST 0",36,new Color(1,.84f,.29f));high.rectTransform.anchorMin=new Vector2(.36f,.2f);high.rectTransform.anchorMax=new Vector2(.66f,.8f);
- var settings=Button("Settings",hud,"⚙",new Vector2(.69f,.27f),new Vector2(.82f,.73f));var hint=Button("Hint",hud,"?",new Vector2(.84f,.27f),new Vector2(.97f,.73f));
+ var settings=Button("Settings",hud,"⚙",new Vector2(.69f,.27f),new Vector2(.82f,.73f));
  var viewport=Node("BoardRegion",safe,new Vector2(.025f,.315f),new Vector2(.975f,.865f));
  var surface=Node("BoardSurface",viewport,new Vector2(.5f,.5f),new Vector2(.5f,.5f));surface.sizeDelta=new Vector2(1024,1024);
  var panelBg=Image("BoardPanel",surface,theme.panel,theme.panelSprite);var frame=Image("StoneFrame",surface,Color.white,theme.frameSprite);frame.transform.SetAsFirstSibling();panelBg.rectTransform.offsetMin=Vector2.one*theme.frame;panelBg.rectTransform.offsetMax=-Vector2.one*theme.frame;
@@ -62,7 +62,6 @@ public static class GameplayUIInstaller {
  var toggleNode=Node("Haptic",popup,new Vector2(.1f,.24f),new Vector2(.9f,.33f));var toggle=toggleNode.gameObject.AddComponent<Toggle>();var box=Image("Box",toggleNode,new Color(.25f,.4f,.55f),theme.panelSprite);box.rectTransform.anchorMax=new Vector2(.12f,1);box.raycastTarget=true;var check=Image("Check",box.transform,new Color(.29f,.87f,.5f),theme.panelSprite);check.rectTransform.offsetMin=Vector2.one*8;check.rectTransform.offsetMax=-Vector2.one*8;toggle.targetGraphic=box;toggle.graphic=check;Text("Label",toggleNode,"Haptic vibration",32,Color.white).rectTransform.anchorMin=new Vector2(.17f,0);
  var close=Button("Close",popup,"CLOSE",new Vector2(.3f,.06f),new Vector2(.7f,.18f));
  var settingsPanel=hud.gameObject.AddComponent<SettingsPanel>();Set(settingsPanel,"popup",popupMask.gameObject);Set(settingsPanel,"music",music);Set(settingsPanel,"sfx",sfx);Set(settingsPanel,"haptic",toggle);Set(settingsPanel,"open",settings);Set(settingsPanel,"close",close);popupMask.gameObject.SetActive(false);
- var hc=hud.gameObject.AddComponent<HintController>();Set(hc,"theme",theme);Set(hc,"board",board);Set(hc,"tray",tray);Set(hc,"button",hint);
  var gh=hud.gameObject.AddComponent<GameHUD>();Set(gh,"theme",theme);Set(gh,"score",score);Set(gh,"highScore",high);
  var ui=UnityEngine.Object.FindFirstObjectByType<BlockBlast.UI.UIManager>();Set(ui,"scoreText",null);Set(ui,"highScoreText",null);
  var combo=Text("Combo",viewport,"",64,new Color(1,.84f,.29f));combo.fontStyle=FontStyles.Bold;

@@ -54,9 +54,6 @@ MonoBehaviour:
   gameOverCloseTime: 0.15
   recordFlashTime: 1.2
   recordGold: {r: 1, g: 0.8352941, b: 0.2901961, a: 1}
-  charge: 1
-  hintCooldown: 1
-  hintPulseTime: 0.3
   panelSprite: {fileID: 21300000, guid: f2038d2f3aa2e1347ad55cdecf6fc421, type: 3}
   cellSprite: {fileID: 21300000, guid: 5004ff21564647dfb98095bde3d55422, type: 3}
   frameSprite: {fileID: 21300000, guid: fa5c26c5e3d04184be7e55a9edf3fa90, type: 3}

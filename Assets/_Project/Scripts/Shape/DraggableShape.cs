@@ -140,7 +140,6 @@ namespace BlockBlast.Shape
             if (isDragging || returning) return;
             RefreshPlacementAvailability();
             if (isDragging || returning || !CanDrag()) return;
-            var hint=parentCanvas.GetComponentInChildren<BlockBlast.UI.HintController>();if(hint!=null)hint.Cancel();
             GridBoard.Instance.ClearPreviewAndHighlights();
             RememberTrayTransform();
             isDragging = true;

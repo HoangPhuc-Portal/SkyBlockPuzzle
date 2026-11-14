@@ -71,7 +71,7 @@ public static class UIRegressionChecks
         var board = new BoardModel(8);
         var single = new bool[,] { { true } };
         for (int c = 0; c < 7; c++) board.Set(0, c, true);
-        Require(board.CompletedBy(single, 0, 7) == 1, "Hint row completion");
+        Require(board.CompletedBy(single, 0, 7) == 1, "Row completion");
         Require(board.CompletedBy(single, 1, 7) == 0, "Valid non-clear target");
         Require(!board.CanPlace(single, 0, 0), "Occupied rejection");
         Require(!board.CanPlace(single, -1, 7), "Out of bounds rejection");
@@ -82,6 +82,6 @@ public static class UIRegressionChecks
         var asymmetric = new bool[,] { { true, false }, { true, true } };
         Require(board.CanPlace(asymmetric, 2, 2), "Asymmetric valid target");
         Require(!board.CanPlace(asymmetric, 7, 6), "Asymmetric edge rejection");
-        return "PASS: model valid/invalid, row/column/cross hint scoring, simulation immutability";
+        return "PASS: model valid/invalid, row/column/cross completion scoring, simulation immutability";
     }
 }

@@ -34,7 +34,6 @@ public static class GameplayArtInstaller
  Area(best.rectTransform,bp.transform,.36f,.12f,.58f,.47f);Area(score.rectTransform,sp.transform,.15f,.14f,.7f,.43f);best.text=score.text="0";foreach(var t in new[]{best,score}){t.enableAutoSizing=true;t.fontSizeMin=18;t.fontSizeMax=64;t.color=new Color32(255,217,76,255);}
  Label(bp.transform,"Best",.57f);Label(sp.transform,"Score",.62f);hs.FindProperty("separateScorePlates").boolValue=true;hs.ApplyModifiedPropertiesWithoutUndo();
  var setting=oldHud.Find("Settings");Area((RectTransform)setting,design,.83f,.90f,.12f,.075f);setting.GetComponent<Image>().sprite=S("Settings");setting.GetComponent<Image>().type=Image.Type.Simple;foreach(var im in setting.GetComponentsInChildren<Image>(true))if(im.gameObject!=setting.gameObject)im.enabled=false;
- var hint=oldHud.Find("Hint");Area((RectTransform)hint,design,.84f,.81f,.10f,.065f);
  foreach(var im in oldHud.GetComponentsInChildren<Image>(true))im.enabled=false;
  var dragon=Object.FindFirstObjectByType<BlockBlast.Mascot.DragonMascot>();Area((RectTransform)dragon.transform,design,.005f,.035f,.23f,.16f);var ds=new SerializedObject(dragon);ds.FindProperty("topBar").objectReferenceValue=null;ds.ApplyModifiedPropertiesWithoutUndo();dragon.GetComponent<Image>().sprite=S("Dragon");dragon.GetComponent<Image>().raycastTarget=false;
  Art("DragonPerch",design,"DragonPerch",.01f,.005f,.25f,.065f).transform.SetAsFirstSibling();Art("BoardTraySteps",design,"BoardTraySteps",.39f,.275f,.22f,.045f).transform.SetAsFirstSibling();

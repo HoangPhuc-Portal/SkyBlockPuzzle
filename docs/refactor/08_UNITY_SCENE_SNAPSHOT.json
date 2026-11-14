@@ -1,0 +1,1910 @@
+{
+  "scene": "Assets/Scenes/GamePlay.unity",
+  "dirty": false,
+  "playing": false,
+  "missingScripts": 0,
+  "references": [
+    {
+      "objectName": "Background",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/IslandBackground.png"
+    },
+    {
+      "objectName": "BackgroundDimWorld",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png"
+    },
+    {
+      "objectName": "BackgroundSoftLayer",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/UI/Generated/BackgroundSoft.png"
+    },
+    {
+      "objectName": "Segment_0_0",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_0.asset"
+    },
+    {
+      "objectName": "Segment_1_0",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_0.asset"
+    },
+    {
+      "objectName": "Segment_2_0",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_0.asset"
+    },
+    {
+      "objectName": "Segment_3_0",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_0.asset"
+    },
+    {
+      "objectName": "Segment_4_0",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_0.asset"
+    },
+    {
+      "objectName": "Segment_0_1",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_1.asset"
+    },
+    {
+      "objectName": "Segment_4_1",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_1.asset"
+    },
+    {
+      "objectName": "Segment_0_2",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_2.asset"
+    },
+    {
+      "objectName": "Segment_4_2",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_2.asset"
+    },
+    {
+      "objectName": "Segment_0_3",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_3.asset"
+    },
+    {
+      "objectName": "Segment_4_3",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_3.asset"
+    },
+    {
+      "objectName": "Segment_0_4",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_4.asset"
+    },
+    {
+      "objectName": "Segment_4_4",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_4.asset"
+    },
+    {
+      "objectName": "Segment_0_5",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_5.asset"
+    },
+    {
+      "objectName": "Segment_4_5",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_5.asset"
+    },
+    {
+      "objectName": "Segment_0_6",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_0_6.asset"
+    },
+    {
+      "objectName": "Segment_1_6",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_1_6.asset"
+    },
+    {
+      "objectName": "Segment_2_6",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_2_6.asset"
+    },
+    {
+      "objectName": "Segment_3_6",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_3_6.asset"
+    },
+    {
+      "objectName": "Segment_4_6",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/FrameSlices/Segment_4_6.asset"
+    },
+    {
+      "objectName": "BoardTraySteps",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardTraySteps.png"
+    },
+    {
+      "objectName": "DragonPerch",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/DragonPerch.png"
+    },
+    {
+      "objectName": "StoneFrame",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/UI/Generated/StoneFrame.png"
+    },
+    {
+      "objectName": "BoardPanel",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png"
+    },
+    {
+      "objectName": "TrayPanel",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/PieceTray.png"
+    },
+    {
+      "objectName": "slot_0",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png"
+    },
+    {
+      "objectName": "slot_1",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png"
+    },
+    {
+      "objectName": "slot_2",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/TraySlot.png"
+    },
+    {
+      "objectName": "BestPlate",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BestPlate.png"
+    },
+    {
+      "objectName": "ScorePlate",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/ScorePlate.png"
+    },
+    {
+      "objectName": "Settings",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Settings.png"
+    },
+    {
+      "objectName": "Gear",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/UI/Generated/SettingsIcon.png"
+    },
+    {
+      "objectName": "GameplayDragon",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Dragon.png"
+    },
+    {
+      "objectName": "Board_Left_Buttercups",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png"
+    },
+    {
+      "objectName": "Board_Left_Pink",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png"
+    },
+    {
+      "objectName": "Board_Right_Daisies",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png"
+    },
+    {
+      "objectName": "Board_Right_Pink",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png"
+    },
+    {
+      "objectName": "Island_Front_Pink",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png"
+    },
+    {
+      "objectName": "Island_Front_Pink (1)",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png"
+    },
+    {
+      "objectName": "Island_Front_Pink (2)",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/ButtercupPatch.png"
+    },
+    {
+      "objectName": "Island_Front_Pink (3)",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png"
+    },
+    {
+      "objectName": "Dragon_Left_Daisies",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png"
+    },
+    {
+      "objectName": "Dragon_Front_Daisies",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/DaisyBorder.png"
+    },
+    {
+      "objectName": "Dragon_Front_Pink",
+      "active": true,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/PinkPurpleFlowers.png"
+    },
+    {
+      "objectName": "Background",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/frame.png"
+    },
+    {
+      "objectName": "Track",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png"
+    },
+    {
+      "objectName": "Fill",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png"
+    },
+    {
+      "objectName": "Handle",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png"
+    },
+    {
+      "objectName": "Icon",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png"
+    },
+    {
+      "objectName": "Image",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_music.png"
+    },
+    {
+      "objectName": "Track",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_track_blue.png"
+    },
+    {
+      "objectName": "Fill",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_fill_green.png"
+    },
+    {
+      "objectName": "Handle",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/slider_handle_crystal.png"
+    },
+    {
+      "objectName": "Icon ",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png"
+    },
+    {
+      "objectName": "Image",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_sound.png"
+    },
+    {
+      "objectName": "Icon ",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/tile_icon_blue.png"
+    },
+    {
+      "objectName": "Image",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/03_Icons/icon_vibration.png"
+    },
+    {
+      "objectName": "Box",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_off.png"
+    },
+    {
+      "objectName": "Check",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/04_Sliders_Toggles/toggle_on.png"
+    },
+    {
+      "objectName": "Close",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button.png"
+    },
+    {
+      "objectName": "Home",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_home_with_icon.png"
+    },
+    {
+      "objectName": "Replay",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandSetting/02_ButtonBackgrounds/button_blue_replay_with_icon.png"
+    },
+    {
+      "objectName": "Panel",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameover/frame.png"
+    },
+    {
+      "objectName": "RecordGlow",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png"
+    },
+    {
+      "objectName": "Base",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png"
+    },
+    {
+      "objectName": "Point0",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/UI/Generated/BlockWhite.png"
+    },
+    {
+      "objectName": "Point1",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/UI/Generated/BlockWhite.png"
+    },
+    {
+      "objectName": "Point2",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/UI/Generated/BlockWhite.png"
+    },
+    {
+      "objectName": "Replay",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameover/button.png"
+    },
+    {
+      "objectName": "ViewBoard",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png"
+    },
+    {
+      "objectName": "ContinueRewarded",
+      "active": false,
+      "component": "Image",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameover/button.png"
+    },
+    {
+      "objectName": "BoardPanelView",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/Panel.png"
+    },
+    {
+      "objectName": "StoneFrameView",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardFrame.png"
+    },
+    {
+      "objectName": "Cell_0_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_0_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_0_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_0_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_0_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_0_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_0_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_0_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_1_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_2_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_3_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_4_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_5_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_6_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_0",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_1",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_2",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_3",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_4",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_5",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_6",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "Cell_7_7",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BoardCell.png"
+    },
+    {
+      "objectName": "FillVisual",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/BlockWhite.png"
+    },
+    {
+      "objectName": "HighlightGlow",
+      "active": false,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/cell_highlight.png"
+    },
+    {
+      "objectName": "ComboEnvironment",
+      "active": true,
+      "component": "ComboEnvironment",
+      "field": "glowSprite",
+      "asset": "Assets/_Project/_Assets/SquareParticle.png"
+    },
+    {
+      "objectName": "GameplayExtendedSky",
+      "active": true,
+      "component": "SpriteRenderer",
+      "field": "m_Sprite",
+      "asset": "Assets/_Project/_Assets/SkyIslandGameplay/IslandBackground.png"
+    }
+  ],
+  "buildScenes": [
+    {
+      "enabled": true,
+      "path": "Assets/Scenes/MainMenu.unity",
+      "guid": {}
+    },
+    {
+      "enabled": true,
+      "path": "Assets/Scenes/GamePlay.unity",
+      "guid": {}
+    }
+  ]
+}

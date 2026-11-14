@@ -134,7 +134,6 @@ namespace BlockBlast.UI
         private void Open()
         {
             if (Busy || GameManager.Instance.IsGameOver || GameManager.Instance.RewardModalOpen) return;
-            GetComponent<HintController>()?.Cancel();
             GameManager.Instance.RewardModalOpen = true;
             foreach (var piece in BlockBlast.Shape.TrayManager.Instance.Pieces)
                 if (piece != null) piece.OnCancel(null);

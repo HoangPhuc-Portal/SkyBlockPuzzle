@@ -40,7 +40,7 @@ public static class ReferenceGameplayInstaller
         var surface=Node("ReferenceWoodHUD",hud);
         var aspect=surface.GetComponent<AspectRatioFitter>()??surface.gameObject.AddComponent<AspectRatioFitter>();
         aspect.aspectMode=AspectRatioFitter.AspectMode.FitInParent;aspect.aspectRatio=432f/97;
-        foreach(string childName in new[]{"Pill","ScoreArea","HighScore","Settings","Hint"})
+        foreach(string childName in new[]{"Pill","ScoreArea","HighScore","Settings"})
         {var child=hud.Find(childName);if(child!=null)child.SetParent(surface,false);}
         var pill=surface.Find("Pill");Rect(pill,Vector2.zero,Vector2.one);
         var art=pill.GetComponent<Image>();art.sprite=Art("HUDWood");art.type=Image.Type.Simple;art.color=Color.white;art.raycastTarget=false;
@@ -49,7 +49,6 @@ public static class ReferenceGameplayInstaller
         var score=area.Find("Score").GetComponent<TextMeshProUGUI>();Rect(score.transform,Vector2.zero,Vector2.one);Text(score,78);
         var high=surface.Find("HighScore").GetComponent<TextMeshProUGUI>();Rect(high.transform,new Vector2(.415f,.20f),new Vector2(.69f,.77f));Text(high,46);
         SkinButton(surface.Find("Settings"),"SettingsButton",new Vector2(.722f,.216f),new Vector2(.831f,.804f));
-        SkinButton(surface.Find("Hint"),"HintButton",new Vector2(.840f,.216f),new Vector2(.949f,.804f));
         var crown=Node("ReferenceCrown",surface);Rect(crown,new Vector2(.448f,.82f),new Vector2(.552f,1.18f));
         var crownImage=crown.GetComponent<Image>()??crown.gameObject.AddComponent<Image>();crownImage.sprite=Art("Crown");crownImage.color=Color.white;crownImage.preserveAspect=true;crownImage.raycastTarget=false;
 

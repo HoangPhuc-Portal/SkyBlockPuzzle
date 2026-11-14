@@ -104,7 +104,7 @@ public static class GameOverInstaller
         Set(flow,"popup",popup.gameObject);Set(flow,"panel",panel);Set(flow,"group",group);
         Set(flow,"finalScore",final);Set(flow,"highScore",high);Set(flow,"crown",crown.gameObject);
         Set(flow,"recordGlow",glow);Set(flow,"replayButton",replay);Set(flow,"viewBoardButton",view);
-        Set(flow,"hud",hud);Set(flow,"hint",root.GetComponentInChildren<HintController>(true));
+        Set(flow,"hud",hud);
         Set(flow,"settings",root.GetComponentInChildren<SettingsPanel>(true));
         Set(flow,"clearPresentation",root.GetComponentInChildren<ClearPresentation>(true));
         Set(flow,"bubbles",root.GetComponentInChildren<BlockBlast.Effects.BubblePopEffectPlayer>(true));
